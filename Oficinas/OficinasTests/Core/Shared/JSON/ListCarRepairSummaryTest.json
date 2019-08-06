@@ -1,0 +1,876 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CpQECgIAAIt36uwnlUyJmnTNVZhShP28XWdE0lrI56hC6Wh6yDrFW79m0KnThH95Rmu5wv_8clI2R2f0pstI5u7NcpgNWZL_re8wl2tZPHehCm78QHnxH7-N1kCvcjEdjjzyzkwi2CEiXL82mMyrP7K3LLlhwO5xSFveUzaB1hFqbWthQcx7EgTryA0gu7QBoSv836Yv0SLQYZb-hHG_7WAInQIG-izadFeppAlKblbo_WLQHEVkrfad9EPLM0wgnznnYtn1WCuhV37hZ-ouaCNyBRL0k9rqUie7CvwU9h7RlcQH6Yl79qP__GXG-Q5CvYwxKwpEiy9XPtlqQNJypky5RFwY1t39YjuH_RCwq5SzLCKLPJSOZxX-FEdQWkBjwDOKuAlWEsAWv9NF2iQLRPI0IWSvMLzTIo9Rc_4W26U9KLdjQ30L6kwqggVHgTSnxl45kC74iI89sDxaZUfmGx-jRyOeaM6PHhU0y9M79QUqwnB8LrBljkkrO8fNfwCyLJay4doHlBFLkBbuvMbm96dYl8Dm3SfsdpPw7KE-legoeYlW9pe28hXivgyT4BnM9KNYNxmW-qKJoCRjdjKBoVUw0cfAwElWHtGueJ3OAzTTbVER7KhR-V-FaYIqRZKUsFiKJbpqy5rBDY8b3hqT9_MBnigJv5qlOyQhACZ7eL9n-n98fKRnok7BIJzf5LHaHUwC3uQFBxIQIUMEhQLKljwCpIGl23LTsRoU6jxjAIvQY1ypQ7yyD9GkFArXIz0",
+    "results": [
+        {
+            "formatted_address": "Av. Dr. Ricardo Jafet, 618 - Ipiranga, São Paulo - SP, 04260-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.582738,
+                    "lng": -46.615282
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58144982010727,
+                        "lng": -46.61383892010728
+                    },
+                    "southwest": {
+                        "lat": -23.58414947989272,
+                        "lng": -46.61653857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "5eafbf054b2b4deaf21404113a872a549192b966",
+            "name": "Jatai Auto Mecânica",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJNRz_9t5bzpQRzR2mF1ceTH8",
+            "plus_code": {
+                "compound_code": "C98M+WV Ipiranga, São Paulo - SP",
+                "global_code": "588MC98M+WV"
+            },
+            "rating": 4,
+            "reference": "ChIJNRz_9t5bzpQRzR2mF1ceTH8",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 19
+        },
+        {
+            "formatted_address": "R. Cel. Diogo, 1473 - Jardim da Gloria, São Paulo - SP, 01545-001",
+            "geometry": {
+                "location": {
+                    "lat": -23.5815291,
+                    "lng": -46.614658
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58020642010727,
+                        "lng": -46.61333182010728
+                    },
+                    "southwest": {
+                        "lat": -23.58290607989272,
+                        "lng": -46.61603147989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "9cf6cffd2e122f9c0cfd2c0a760175b7ad572019",
+            "name": "Motor Mec Oficina Mecânica",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJS5Cfrt9bzpQRhhGHrJqJXzo",
+            "plus_code": {
+                "compound_code": "C99P+94 Jardim da Gloria, São Paulo - SP",
+                "global_code": "588MC99P+94"
+            },
+            "rating": 0,
+            "reference": "ChIJS5Cfrt9bzpQRhhGHrJqJXzo",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "formatted_address": "Av. Dr. Ricardo Jafet, 1050 - Ipiranga, São Paulo - SP, 04260-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.585439,
+                    "lng": -46.618781
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58412002010728,
+                        "lng": -46.61736567010727
+                    },
+                    "southwest": {
+                        "lat": -23.58681967989272,
+                        "lng": -46.62006532989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "2b3f16ab5c6d0aa8411ec2cec4751c376157ba09",
+            "name": "Auto Race Motorsport - Ipiranga",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 727,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109649345298868368964/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAEZYtutt5YSnxPpqFVje0GQcld2ZyPcZf9pbw_Ibg1HNueFzx7vuXfDkZLabfgxUBE_i8xJei1S4oiCdNeLmssHq1x_8EYy08Mau7Wt4AHnBoRSEeKobl6rkvFE23XLVOEhDdGivc_9AXqihBhDx1KQ8gGhS_36VQHva1PsMQv742Ha2i1xb54Q",
+                    "width": 750
+                }
+            ],
+            "place_id": "ChIJR5ilYNlbzpQRrdSa-_Q31lc",
+            "plus_code": {
+                "compound_code": "C97J+RF Ipiranga, São Paulo - SP",
+                "global_code": "588MC97J+RF"
+            },
+            "rating": 4.2,
+            "reference": "ChIJR5ilYNlbzpQRrdSa-_Q31lc",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 44
+        },
+        {
+            "formatted_address": "R. Tabor, 363 - Ipiranga, São Paulo - SP, 04202-020",
+            "geometry": {
+                "location": {
+                    "lat": -23.5769588,
+                    "lng": -46.6069749
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57566307010728,
+                        "lng": -46.60561972010727
+                    },
+                    "southwest": {
+                        "lat": -23.57836272989272,
+                        "lng": -46.60831937989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "34e4edbc8169f9f423c11218b2b48073516b5c34",
+            "name": "FJ Auto Mecânica",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104524240963853007883/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAOvSizqUJTP_ZsSE569tcJn4t6NZFOBJkdJczAHug-Y0L9Y74vsVkk4R3NWUGNGldLvnCFho28DtjInLDGhr0FILwReXTUD4llQ9CASK9x_2cUCb482U9yATWEY9zykC6EhDBw4arM3aUB26VDMNmibKDGhSI2n6HcQos-3wCjoxaoRlbt6i55Q",
+                    "width": 2268
+                }
+            ],
+            "place_id": "ChIJ77IMCeJbzpQROg3Xoq22dT8",
+            "plus_code": {
+                "compound_code": "C9FV+66 São Paulo, SP",
+                "global_code": "588MC9FV+66"
+            },
+            "rating": 4.9,
+            "reference": "ChIJ77IMCeJbzpQROg3Xoq22dT8",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15
+        },
+        {
+            "formatted_address": "R. Cel. Diogo, 897 - Jardim da Gloria, São Paulo - SP, 01545-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5782238,
+                    "lng": -46.6191147
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57690477010728,
+                        "lng": -46.61779012010728
+                    },
+                    "southwest": {
+                        "lat": -23.57960442989273,
+                        "lng": -46.62048977989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "97c22ea30003034ab46c450705ee46a9da5133f1",
+            "name": "La Macchina Centro Automotivo Ltda",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1200,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103399002442983326605/photos\">La Macchina Centro Automotivo Ltda</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAaRLeWetjzBVpIh71f4v0RrNxp074vD1g-tWSDZfp7xrOuWxjXfwzPZiRnAtkEywuuLcZsUcOLPReEUYJGB5lqtL1_5unChJImPDemmiu8blrt0Mfz6p70TnvTwlSWvdLEhASDnrvOQ7jbBY6Y4xyWCq0GhSpBE-U2lOfrQPMHV2Avqf_aHiCTA",
+                    "width": 1600
+                }
+            ],
+            "place_id": "ChIJaWt0sWNZzpQRXwi88SSacDk",
+            "plus_code": {
+                "compound_code": "C9CJ+P9 Jardim da Gloria, São Paulo - SP",
+                "global_code": "588MC9CJ+P9"
+            },
+            "rating": 4.4,
+            "reference": "ChIJaWt0sWNZzpQRXwi88SSacDk",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 44
+        },
+        {
+            "formatted_address": "R. Dom Duarte Leopoldo, 945 - Cambuci, São Paulo - SP, 01542-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5727717,
+                    "lng": -46.619048
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57140642010728,
+                        "lng": -46.61773477010728
+                    },
+                    "southwest": {
+                        "lat": -23.57410607989272,
+                        "lng": -46.62043442989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "39915c8d86b6ba0cac0353729aed3ab72ec9378e",
+            "name": "Oficina Mecânica - Jhow Motors",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 631,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102303282423721542209/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAgply3FwhylJuwlgXdcW6geb7f3HUfyj0zmyocMUPqnMpaT5CMyHY0YjqDjx84JoPCLRRPneuWc7tTCs3aBnM5bcAmr3dOIKHYCD1apk6AUsJRtQc8hDTEsaekCrSrtSvEhBP6K5v92oO9Iv-tAgeOeJLGhTh8omrK_ZgK-vLPDZKXKI-qZrGeg",
+                    "width": 1770
+                }
+            ],
+            "place_id": "ChIJOzPH8rJZzpQRjzY2uzeJXGo",
+            "plus_code": {
+                "compound_code": "C9GJ+V9 Cambuci, São Paulo - SP",
+                "global_code": "588MC9GJ+V9"
+            },
+            "rating": 5,
+            "reference": "ChIJOzPH8rJZzpQRjzY2uzeJXGo",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4
+        },
+        {
+            "formatted_address": "Av. Lacerda Franco, 2093 - Vila Mariana, São Paulo - SP, 01536-001",
+            "geometry": {
+                "location": {
+                    "lat": -23.5812225,
+                    "lng": -46.6260295
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57986432010728,
+                        "lng": -46.62472412010728
+                    },
+                    "southwest": {
+                        "lat": -23.58256397989272,
+                        "lng": -46.62742377989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "f962e5e24acb29f32c3920e03e90c2a2b3a56230",
+            "name": "Auto Mecânica Gerocar",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2340,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104252821474492331111/photos\">HUMBERTO BETINHO</a>"
+                    ],
+                    "photo_reference": "CmRZAAAAC9l1aRvUBLKHhvpYMPdiEjsWxrHt38XzzQxvrnWSOf57UZc3bl9xOXuxuW_NPB-JeY2ubyG-bTtiyPYkKn79f4cmWvoLAFXDsDejWpzO0piQJI_UtGtlu2niwh4idg8CEhBs3NUdV50T_P4Fz2G82Pl4GhQkdwg66C64yXjdwOWCgHrbzt5hrw",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJ80jMy31ZzpQRY1kAAd0SYGI",
+            "plus_code": {
+                "compound_code": "C99F+GH Vila Mariana, São Paulo - SP",
+                "global_code": "588MC99F+GH"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ80jMy31ZzpQRY1kAAd0SYGI",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7
+        },
+        {
+            "formatted_address": "Rua Luís Góis, 1421 - Vila Clementino, São Paulo - SP, 04044-040",
+            "geometry": {
+                "location": {
+                    "lat": -23.6041043,
+                    "lng": -46.6414984
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.60270487010728,
+                        "lng": -46.64014827010728
+                    },
+                    "southwest": {
+                        "lat": -23.60540452989272,
+                        "lng": -46.64284792989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "799be0cd72293272a52c848de774878269e6d566",
+            "name": "Mecânica do Angelo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJc37najdazpQRBzpQBAbZVGg",
+            "plus_code": {
+                "compound_code": "99W5+9C São Paulo, SP",
+                "global_code": "588M99W5+9C"
+            },
+            "rating": 5,
+            "reference": "ChIJc37najdazpQRBzpQBAbZVGg",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1
+        },
+        {
+            "formatted_address": "R. Dr. Mario Vicente, 131 - Vila São José, São Paulo - SP, 04270-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5861008,
+                    "lng": -46.6170775
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58478107010728,
+                        "lng": -46.61575577010728
+                    },
+                    "southwest": {
+                        "lat": -23.58748072989272,
+                        "lng": -46.61845542989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "6b7932bf7b73126a406cbfe48147bbde7e44d890",
+            "name": "Bosch Car Service - Revise Car Ipiranga",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108576104835708943991/photos\">Pit Car Service</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAZlrAI5Ejsae3AZBEoTHUGe33diqTeHAuArAMxFjinsZlhQnv1WV_X_syLmiUlltmwWUkPlgLcKjvMLqiwnHSD6jfpBS0ZUsrColOn29HX9AufaJx6MQYqyPJzFojMJguEhA9t9IOnlNOl7s-h7Bbf2zhGhQLq0kHRgFzxjODrmAAt8pISj7ljg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJhU1UDNxbzpQRdnYhgaPPkqk",
+            "plus_code": {
+                "compound_code": "C97M+H5 Vila São José, São Paulo - SP",
+                "global_code": "588MC97M+H5"
+            },
+            "rating": 4.7,
+            "reference": "ChIJhU1UDNxbzpQRdnYhgaPPkqk",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 50
+        },
+        {
+            "formatted_address": "Ipiranga, São Paulo - SP, 04206-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5721869,
+                    "lng": -46.605297
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57093032010728,
+                        "lng": -46.60393797010728
+                    },
+                    "southwest": {
+                        "lat": -23.57362997989272,
+                        "lng": -46.60663762989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "78ffb61fe3711a2dd5d85587c14fcfa0c6c0ad0e",
+            "name": "Oficina Mecânica",
+            "place_id": "ChIJY_4JnVlZzpQRH6UyuugZhsM",
+            "plus_code": {
+                "compound_code": "C9HV+4V São Paulo, SP",
+                "global_code": "588MC9HV+4V"
+            },
+            "rating": 0,
+            "reference": "ChIJY_4JnVlZzpQRH6UyuugZhsM",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0
+        },
+        {
+            "formatted_address": "R. Joaquim de Almeida, 223-A - Mirandópolis, São Paulo - SP, 04050-010",
+            "geometry": {
+                "location": {
+                    "lat": -23.606374,
+                    "lng": -46.645407
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.60498792010727,
+                        "lng": -46.64406197010727
+                    },
+                    "southwest": {
+                        "lat": -23.60768757989272,
+                        "lng": -46.64676162989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "6910d5eb34ced4d6815ca3e49519cb05a2d89070",
+            "name": "Oficina Mecânica Zizo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1890,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116244675130696158451/photos\">Dr. Fernando Furlani</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA0g7YBsIZoc6F92fvd6lIIm9bIDokpJ1fB1XkTN8rA-LNqVZORlIBMrNp66lfkbQUtzfBC3LGvQLWe8mXBKvWidYIEJZ-L-FvrxzDXbaejr5BLXpJMKdZfQG6Rnv_hNt-EhD4qbF26_77DhHrlB27ZsbHGhQRja63GjfTU_HW6PpbptQTsDBRXw",
+                    "width": 2282
+                }
+            ],
+            "place_id": "ChIJe00NIjlazpQRyL9QqqLE23Y",
+            "plus_code": {
+                "compound_code": "99V3+FR Mirandópolis, São Paulo - SP",
+                "global_code": "588M99V3+FR"
+            },
+            "rating": 4.9,
+            "reference": "ChIJe00NIjlazpQRyL9QqqLE23Y",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 35
+        },
+        {
+            "formatted_address": "R. Santa Cruz, 1565 - Vila Mariana, São Paulo - SP, 04122-001",
+            "geometry": {
+                "location": {
+                    "lat": -23.6000258,
+                    "lng": -46.62263069999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.59869792010727,
+                        "lng": -46.62131277010727
+                    },
+                    "southwest": {
+                        "lat": -23.60139757989272,
+                        "lng": -46.62401242989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "a6d51f1e12d5716117881ddab69e2eaab8c92155",
+            "name": "Oficina Auto Kaneko",
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118402128432912616826/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAqVcVYNyam5ESAfHaozdIbQSzSaebRHopL4BxpGEl4NafBqjMmOIcm-RQD72hlSlHCbQm0wKrjJd4N92-yGYfSA058XmwaYylEeFwraehYbjsTC0wYzN0HFIC9JtH_-KyEhBwzbkJFzZLwSBLNvWuP84PGhQJhHza4V5FAELHDIk3iOzhBoka8Q",
+                    "width": 2448
+                }
+            ],
+            "place_id": "ChIJ41o9DrhbzpQREI2PR2SVJsc",
+            "plus_code": {
+                "compound_code": "99XG+XW Vila Mariana, São Paulo - SP",
+                "global_code": "588M99XG+XW"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ41o9DrhbzpQREI2PR2SVJsc",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5
+        },
+        {
+            "formatted_address": "Rua Maranjaí, 685 - Vila Monumento, São Paulo - SP, 01549-010",
+            "geometry": {
+                "location": {
+                    "lat": -23.5799271,
+                    "lng": -46.6152206
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57860512010728,
+                        "lng": -46.61389552010728
+                    },
+                    "southwest": {
+                        "lat": -23.58130477989272,
+                        "lng": -46.61659517989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "047305a70b02abbd4cac0026da12b00de7d7f46d",
+            "name": "MVR Mecanica",
+            "place_id": "ChIJ_SLSft9bzpQRA1bQx2Cu5ws",
+            "plus_code": {
+                "compound_code": "C9CM+2W São Paulo, SP",
+                "global_code": "588MC9CM+2W"
+            },
+            "rating": 4.8,
+            "reference": "ChIJ_SLSft9bzpQRA1bQx2Cu5ws",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5
+        },
+        {
+            "formatted_address": "R. Fagundes Dias, 399 - Vila da Saúde, São Paulo - SP, 04054-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.6170694,
+                    "lng": -46.6426639
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.61571952010728,
+                        "lng": -46.64131407010728
+                    },
+                    "southwest": {
+                        "lat": -23.61841917989272,
+                        "lng": -46.64401372989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "b495f5054d372965384024be1aa68b92d559821b",
+            "name": "S.M. Oficina Mecânica",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJ6WocOUVazpQRjsW6ackJ1EQ",
+            "plus_code": {
+                "compound_code": "99M4+5W São Paulo, SP",
+                "global_code": "588M99M4+5W"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ6WocOUVazpQRjsW6ackJ1EQ",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7
+        },
+        {
+            "formatted_address": "R. Dom Duarte Leopoldo, 833 - Cambuci, São Paulo - SP, 01542-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.571895,
+                    "lng": -46.618461
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57053152010728,
+                        "lng": -46.61716947010728
+                    },
+                    "southwest": {
+                        "lat": -23.57323117989272,
+                        "lng": -46.61986912989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "13cd8ff33b97024a3d3deaed5ff749e2e48589ec",
+            "name": "oficinacruzazul",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102464113581053874483/photos\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAIwUGq36l-aiUy7RW93bAYMYW0kNyFlXmgWrpVLJY7LhghDg3AIwGSrD9IRzR5bjQRwYswgQs_7-iEQwAEag0QnWL7fgUU9cnIU-u_gW-XABc3TknH7Q95ExqMKVqrrL3EhAPLH6C0WwDBOVPno8PpjAPGhTjAHYaLTr3JyHzcfYB5lzTdSP7Cg",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJ4Z5XjWVZzpQRjHwd9NhWaCg",
+            "plus_code": {
+                "compound_code": "C9HJ+6J Cambuci, São Paulo - SP",
+                "global_code": "588MC9HJ+6J"
+            },
+            "rating": 4.3,
+            "reference": "ChIJ4Z5XjWVZzpQRjHwd9NhWaCg",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 62
+        },
+        {
+            "formatted_address": "R. do Manifesto, 490 - Ipiranga, São Paulo - SP, 04209-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5777024,
+                    "lng": -46.6027008
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.57634962010728,
+                        "lng": -46.60131002010727
+                    },
+                    "southwest": {
+                        "lat": -23.57904927989272,
+                        "lng": -46.60400967989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "ec2101515a634e3e15dd8d7347ee2fdbd22e8d4a",
+            "name": "Poison Motors Mecanica Avançada de Veiculos",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2322,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102394677570853119806/photos\">Poison Motors Mecanica Avançada de Veiculos</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA-2oi9wc_AqRfwpNzN2YBQ7buQzqOvNlBuRr6-YunYhaeoSZEnwXlM3czKgy4iSo6rW6U8SQ4Dbsm6wBXf9AmzDMtH8grSsPvBZjiI0H0Mtjv4IQxLA54XvOi_EQrQHDvEhDuSgKl1K9XVHNk7ukm3WhQGhT3PTAH-TUfp2C1jeMn64VMY6As0A",
+                    "width": 4128
+                }
+            ],
+            "place_id": "ChIJB_Gr2vxbzpQRf4ATqcRSCJw",
+            "plus_code": {
+                "compound_code": "C9CW+WW Ipiranga, São Paulo - SP",
+                "global_code": "588MC9CW+WW"
+            },
+            "rating": 4.8,
+            "reference": "ChIJB_Gr2vxbzpQRf4ATqcRSCJw",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 56
+        },
+        {
+            "formatted_address": "Av. Dr. Ricardo Jafet, 500 - Ipiranga, São Paulo - SP, 04260-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.581897,
+                    "lng": -46.614538
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58054962010728,
+                        "lng": -46.61318402010728
+                    },
+                    "southwest": {
+                        "lat": -23.58324927989272,
+                        "lng": -46.61588367989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "7143d6431d3733e749a5c62cafeb1873ebca5cb4",
+            "name": "Oficina Friocar Faísca",
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106713415203174222331/photos\">jcmadi</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAbTPzssG4FSEVBhRulCgi9mCYNQJqqRucLjgIOWdmO8SHSkQyf4fWVgEp-exB-qXcxWCAo3FqCMgvo5LaqFrlYwU8LJdczK0QTYqYxBhApmy029mX7sFqSlcf_xqjcerfEhDsWHOFtmpbD6Wb7cYq6DoZGhRjzhMsO7UuN0Cv3A8LMjd1_UFq0Q",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJC8QICrdbzpQRebv4mBULQBk",
+            "plus_code": {
+                "compound_code": "C99P+65 Ipiranga, São Paulo - SP",
+                "global_code": "588MC99P+65"
+            },
+            "rating": 2.3,
+            "reference": "ChIJC8QICrdbzpQRebv4mBULQBk",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3
+        },
+        {
+            "formatted_address": "R. Paulo Bregaro, 615 - Vila Monumento, São Paulo - SP, 04261-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5865414,
+                    "lng": -46.6118421
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58519632010728,
+                        "lng": -46.61055877010727
+                    },
+                    "southwest": {
+                        "lat": -23.58789597989272,
+                        "lng": -46.61325842989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "671d09e795693e05cf2d200a1c71525810cb85a3",
+            "name": "Auto Mecânica JL",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2340,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111027707672736459687/photos\">Juan carlos De Souza</a>"
+                    ],
+                    "photo_reference": "CmRaAAAALRKhwZmOOq3_smd06Qv2LWmPhxY1qU719z5Bupjx-nCgY4A7gopV7Or_bXM7_aphnahstjznZAWUCDxyKhgjE7SC2TVWnY5YcsTt-6oIpt3SeKBf0cyIfpvgl7De03K2EhBQDcgoLbQeTg3mFtI-H-PtGhTlzUhwKZSjV-vdxSdST4HEL2md9Q",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJjyAVkudbzpQRdAslpUVOqpE",
+            "plus_code": {
+                "compound_code": "C97Q+97 São Paulo, SP",
+                "global_code": "588MC97Q+97"
+            },
+            "rating": 5,
+            "reference": "ChIJjyAVkudbzpQRdAslpUVOqpE",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4
+        },
+        {
+            "formatted_address": "R. Vinte e Oito de Setembro, 408 - Vila Dom Pedro I, São Paulo - SP, 04267-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5955928,
+                    "lng": -46.6112057
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.59423977010728,
+                        "lng": -46.60981767010727
+                    },
+                    "southwest": {
+                        "lat": -23.59693942989272,
+                        "lng": -46.61251732989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "7b091d9f8d031b8874409f2a9466c417d07d4a1b",
+            "name": "Oficina Mecânica",
+            "place_id": "ChIJFZ227epbzpQRdzjJiEEIl_g",
+            "plus_code": {
+                "compound_code": "C93Q+QG São Paulo, SP",
+                "global_code": "588MC93Q+QG"
+            },
+            "rating": 3.8,
+            "reference": "ChIJFZ227epbzpQRdzjJiEEIl_g",
+            "types": [
+                "car_repair",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5
+        },
+        {
+            "formatted_address": "Av. Dr. Ricardo Jafet, 889 - Vila São José, São Paulo - SP, 04265-000",
+            "geometry": {
+                "location": {
+                    "lat": -23.5844805,
+                    "lng": -46.6176067
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -23.58311037010728,
+                        "lng": -46.61629127010728
+                    },
+                    "southwest": {
+                        "lat": -23.58581002989272,
+                        "lng": -46.61899092989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "023e4d2d6c84dad642e3252a6992a8bc50fb4642",
+            "name": "Speed Moto Center",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJG3mrTdlbzpQR-we0mSkHHxI",
+            "plus_code": {
+                "compound_code": "C98J+6X Vila São José, São Paulo - SP",
+                "global_code": "588MC98J+6X"
+            },
+            "rating": 3,
+            "reference": "ChIJG3mrTdlbzpQR-we0mSkHHxI",
+            "types": [
+                "car_repair",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2
+        }
+    ],
+    "status": "OK"
+}

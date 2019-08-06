@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kq6-C7-7CN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--List Car Repair Summary View Controller-->
+        <scene sceneID="Nx7-oh-TmS">
+            <objects>
+                <viewController id="KtA-lO-sd3" customClass="ListCarRepairSummaryViewController" customModule="Oficinas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1rV-C6-vVz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gPd-23-imB">
+                                <rect key="frame" x="0.0" y="64" width="375" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Informe um endereço" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ghm-me-gfh">
+                                        <rect key="frame" x="8" y="10" width="266" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iad-Yh-AdG">
+                                        <rect key="frame" x="282" y="10" width="85" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="gsX-nQ-chx"/>
+                                        </constraints>
+                                        <state key="normal" title="Pesquisar">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.79914251557538207" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="iad-Yh-AdG" firstAttribute="centerY" secondItem="ghm-me-gfh" secondAttribute="centerY" id="9lX-qi-sfd"/>
+                                    <constraint firstAttribute="height" constant="50" id="Dhe-aJ-iv1"/>
+                                    <constraint firstItem="ghm-me-gfh" firstAttribute="leading" secondItem="gPd-23-imB" secondAttribute="leading" constant="8" id="cqT-Fb-jNY"/>
+                                    <constraint firstItem="iad-Yh-AdG" firstAttribute="leading" secondItem="ghm-me-gfh" secondAttribute="trailing" constant="8" id="pn3-wd-HRv"/>
+                                    <constraint firstAttribute="trailing" secondItem="iad-Yh-AdG" secondAttribute="trailing" constant="8" id="rgM-Jd-MSX"/>
+                                    <constraint firstItem="ghm-me-gfh" firstAttribute="centerY" secondItem="gPd-23-imB" secondAttribute="centerY" id="yqN-3f-WDg"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NIK-4C-xIs">
+                                <rect key="frame" x="0.0" y="114" width="375" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CarRepairSummaryTableViewCell" rowHeight="100" id="AKR-to-Q9N" customClass="CarRepairSummaryTableViewCell" customModule="Oficinas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AKR-to-Q9N" id="gkG-r2-9bU">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jatai Auto Mecânica" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xgf-ny-s0U">
+                                                    <rect key="frame" x="16" y="8" width="326" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. Cel. Diogo, 1473 - Jardim da Gloria, São Paulo - SP, 01545-001" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="eL9-fc-5oj">
+                                                    <rect key="frame" x="16" y="34" width="326" height="31.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aberto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtO-i1-KmS">
+                                                    <rect key="frame" x="16" y="69" width="47" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_star" translatesAutoresizingMaskIntoConstraints="NO" id="8eP-0y-qcL">
+                                                    <rect key="frame" x="312" y="62" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="g1w-PV-td2"/>
+                                                        <constraint firstAttribute="height" constant="30" id="kPx-i2-P87"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5(829)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQV-ns-YTx">
+                                                    <rect key="frame" x="262" y="70" width="54" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="8eP-0y-qcL" secondAttribute="trailing" id="14f-5O-0EE"/>
+                                                <constraint firstItem="NtO-i1-KmS" firstAttribute="centerY" secondItem="ZQV-ns-YTx" secondAttribute="centerY" id="CRM-pA-nnd"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZQV-ns-YTx" secondAttribute="bottom" constant="13.5" id="Jiu-gc-G58"/>
+                                                <constraint firstItem="ZQV-ns-YTx" firstAttribute="top" secondItem="eL9-fc-5oj" secondAttribute="bottom" constant="4.5" id="Opo-IA-Xal"/>
+                                                <constraint firstAttribute="trailing" secondItem="Xgf-ny-s0U" secondAttribute="trailing" id="Ou7-SQ-v8Y"/>
+                                                <constraint firstItem="eL9-fc-5oj" firstAttribute="trailing" secondItem="Xgf-ny-s0U" secondAttribute="trailing" id="S4b-fg-nlI"/>
+                                                <constraint firstItem="eL9-fc-5oj" firstAttribute="leading" secondItem="Xgf-ny-s0U" secondAttribute="leading" id="UPn-Bb-Zwy"/>
+                                                <constraint firstItem="eL9-fc-5oj" firstAttribute="top" secondItem="Xgf-ny-s0U" secondAttribute="bottom" constant="8" id="Ywo-Os-I2z"/>
+                                                <constraint firstItem="ZQV-ns-YTx" firstAttribute="centerY" secondItem="8eP-0y-qcL" secondAttribute="centerY" constant="1" id="aqJ-Ia-wKa"/>
+                                                <constraint firstItem="NtO-i1-KmS" firstAttribute="leading" secondItem="eL9-fc-5oj" secondAttribute="leading" id="g2y-2c-8Em"/>
+                                                <constraint firstItem="8eP-0y-qcL" firstAttribute="leading" secondItem="ZQV-ns-YTx" secondAttribute="trailing" constant="-4" id="m2z-jN-RGU"/>
+                                                <constraint firstItem="Xgf-ny-s0U" firstAttribute="leading" secondItem="gkG-r2-9bU" secondAttribute="leading" constant="16" id="mTc-EJ-CJA"/>
+                                                <constraint firstItem="Xgf-ny-s0U" firstAttribute="top" secondItem="gkG-r2-9bU" secondAttribute="top" constant="8" id="uQA-3c-NCU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="8eP-0y-qcL" secondAttribute="bottom" constant="8" id="3KE-9b-0a1"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="addressCarRepairLabel" destination="eL9-fc-5oj" id="fYG-Bp-ndY"/>
+                                            <outlet property="itsOpenedCarRepairLabel" destination="NtO-i1-KmS" id="491-NL-B9p"/>
+                                            <outlet property="nameCarRepairLabel" destination="Xgf-ny-s0U" id="W3U-7u-4YK"/>
+                                            <outlet property="ratingAndRatingCountCarRepairLabel" destination="ZQV-ns-YTx" id="22V-JP-It0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="KtA-lO-sd3" id="hCk-gH-QNh"/>
+                                    <outlet property="delegate" destination="KtA-lO-sd3" id="mf7-v5-4AP"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dio-fu-yvM" firstAttribute="bottom" secondItem="NIK-4C-xIs" secondAttribute="bottom" id="6ei-QT-yne"/>
+                            <constraint firstItem="dio-fu-yvM" firstAttribute="trailing" secondItem="gPd-23-imB" secondAttribute="trailing" id="E3t-4g-dOt"/>
+                            <constraint firstItem="gPd-23-imB" firstAttribute="leading" secondItem="dio-fu-yvM" secondAttribute="leading" id="EeE-CU-2Mc"/>
+                            <constraint firstItem="NIK-4C-xIs" firstAttribute="top" secondItem="gPd-23-imB" secondAttribute="bottom" id="F3C-bd-tg6"/>
+                            <constraint firstItem="gPd-23-imB" firstAttribute="top" secondItem="dio-fu-yvM" secondAttribute="top" id="Rhp-wF-nWK"/>
+                            <constraint firstItem="NIK-4C-xIs" firstAttribute="leading" secondItem="dio-fu-yvM" secondAttribute="leading" id="iOW-5N-sre"/>
+                            <constraint firstItem="dio-fu-yvM" firstAttribute="trailing" secondItem="NIK-4C-xIs" secondAttribute="trailing" id="kgN-5l-WGN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dio-fu-yvM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IBt-0y-dGw"/>
+                    <connections>
+                        <outlet property="carRepairSummaryTableView" destination="NIK-4C-xIs" id="StX-Mp-Mq7"/>
+                        <outlet property="inputAddressTextField" destination="ghm-me-gfh" id="shd-SL-0DC"/>
+                        <outlet property="searchAddressButton" destination="iad-Yh-AdG" id="DMA-b0-Mke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kzu-l5-6wb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480.80000000000001" y="-163.26836581709148"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bpi-Eg-3gl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kq6-C7-7CN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i71-2O-VeR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KtA-lO-sd3" kind="relationship" relationship="rootViewController" id="KxD-1a-EfH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bq-NS-LB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247.19999999999999" y="-163.26836581709148"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_star" width="512" height="512"/>
+    </resources>
+</document>

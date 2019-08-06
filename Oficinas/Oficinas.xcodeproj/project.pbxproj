@@ -7,13 +7,212 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06160108E61E36B0792C0DD5 /* Pods_OficinasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68768EE4B731C8EDF63E220E /* Pods_OficinasTests.framework */; };
+		220F046E04AE258790F6D822 /* Pods_Oficinas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7823073CEB187FAC24C61789 /* Pods_Oficinas.framework */; };
+		6D78118922F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118822F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift */; };
+		6D78118A22F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118822F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift */; };
+		6D78118C22F52CFC0048DC7F /* CarRepairDestinationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118B22F52CFC0048DC7F /* CarRepairDestinationScreen.swift */; };
+		6D78118D22F52CFC0048DC7F /* CarRepairDestinationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118B22F52CFC0048DC7F /* CarRepairDestinationScreen.swift */; };
+		6D78118F22F606D60048DC7F /* AccessNativeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118E22F606D60048DC7F /* AccessNativeComponents.swift */; };
+		6D78119022F606D60048DC7F /* AccessNativeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78118E22F606D60048DC7F /* AccessNativeComponents.swift */; };
+		6D78119422F60D620048DC7F /* ApplicationSharedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78119322F60D620048DC7F /* ApplicationSharedComponent.swift */; };
+		6D78119522F60D620048DC7F /* ApplicationSharedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D78119322F60D620048DC7F /* ApplicationSharedComponent.swift */; };
 		6D7E1E2E22EFEDBA00805BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E2D22EFEDBA00805BA1 /* AppDelegate.swift */; };
-		6D7E1E3022EFEDBA00805BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E2F22EFEDBA00805BA1 /* ViewController.swift */; };
-		6D7E1E3322EFEDBA00805BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1E3122EFEDBA00805BA1 /* Main.storyboard */; };
 		6D7E1E3522EFEDBC00805BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1E3422EFEDBC00805BA1 /* Assets.xcassets */; };
 		6D7E1E3822EFEDBC00805BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1E3622EFEDBC00805BA1 /* LaunchScreen.storyboard */; };
-		6D7E1E4322EFEDBC00805BA1 /* OficinasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E4222EFEDBC00805BA1 /* OficinasTests.swift */; };
 		6D7E1E4E22EFEDBC00805BA1 /* OficinasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E4D22EFEDBC00805BA1 /* OficinasUITests.swift */; };
+		6D7E1E6422EFF48500805BA1 /* ParameterizedUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6322EFF48500805BA1 /* ParameterizedUseCase.swift */; };
+		6D7E1E6522EFF48500805BA1 /* ParameterizedUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6322EFF48500805BA1 /* ParameterizedUseCase.swift */; };
+		6D7E1E6A22EFFA4A00805BA1 /* ListCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6922EFFA4A00805BA1 /* ListCarRepairSummary.swift */; };
+		6D7E1E6B22EFFA4A00805BA1 /* ListCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6922EFFA4A00805BA1 /* ListCarRepairSummary.swift */; };
+		6D7E1E6D22EFFA5800805BA1 /* CarRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6C22EFFA5800805BA1 /* CarRepair.swift */; };
+		6D7E1E6E22EFFA5800805BA1 /* CarRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6C22EFFA5800805BA1 /* CarRepair.swift */; };
+		6D7E1E7022EFFB2700805BA1 /* OpeningHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6F22EFFB2700805BA1 /* OpeningHour.swift */; };
+		6D7E1E7122EFFB2700805BA1 /* OpeningHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E6F22EFFB2700805BA1 /* OpeningHour.swift */; };
+		6D7E1E7522F004EB00805BA1 /* ObtainCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7422F004EB00805BA1 /* ObtainCarRepairSummary.swift */; };
+		6D7E1E7622F004EB00805BA1 /* ObtainCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7422F004EB00805BA1 /* ObtainCarRepairSummary.swift */; };
+		6D7E1E7822F004FF00805BA1 /* CarRepairSummaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7722F004FF00805BA1 /* CarRepairSummaryProvider.swift */; };
+		6D7E1E7922F004FF00805BA1 /* CarRepairSummaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7722F004FF00805BA1 /* CarRepairSummaryProvider.swift */; };
+		6D7E1E7B22F0050D00805BA1 /* CarRepairSummaryProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7A22F0050D00805BA1 /* CarRepairSummaryProviderError.swift */; };
+		6D7E1E7C22F0050D00805BA1 /* CarRepairSummaryProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7A22F0050D00805BA1 /* CarRepairSummaryProviderError.swift */; };
+		6D7E1E7E22F0051600805BA1 /* CarRepairSummaryReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7D22F0051600805BA1 /* CarRepairSummaryReceiver.swift */; };
+		6D7E1E7F22F0051600805BA1 /* CarRepairSummaryReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E7D22F0051600805BA1 /* CarRepairSummaryReceiver.swift */; };
+		6D7E1E8122F006CB00805BA1 /* ObtainCarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8022F006CB00805BA1 /* ObtainCarRepairDetail.swift */; };
+		6D7E1E8222F006CB00805BA1 /* ObtainCarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8022F006CB00805BA1 /* ObtainCarRepairDetail.swift */; };
+		6D7E1E8622F006F600805BA1 /* CarRepairDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8522F006F600805BA1 /* CarRepairDetailProvider.swift */; };
+		6D7E1E8722F006F600805BA1 /* CarRepairDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8522F006F600805BA1 /* CarRepairDetailProvider.swift */; };
+		6D7E1E8922F0070200805BA1 /* CarRepairDetailProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8822F0070200805BA1 /* CarRepairDetailProviderError.swift */; };
+		6D7E1E8A22F0070200805BA1 /* CarRepairDetailProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8822F0070200805BA1 /* CarRepairDetailProviderError.swift */; };
+		6D7E1E8C22F0070A00805BA1 /* CarRepairDetailReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8B22F0070A00805BA1 /* CarRepairDetailReceiver.swift */; };
+		6D7E1E8D22F0070A00805BA1 /* CarRepairDetailReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8B22F0070A00805BA1 /* CarRepairDetailReceiver.swift */; };
+		6D7E1E8F22F008EE00805BA1 /* CarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8E22F008EE00805BA1 /* CarRepairDetail.swift */; };
+		6D7E1E9022F008EE00805BA1 /* CarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E8E22F008EE00805BA1 /* CarRepairDetail.swift */; };
+		6D7E1E9722F009FB00805BA1 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9622F009FB00805BA1 /* Period.swift */; };
+		6D7E1E9822F009FB00805BA1 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9622F009FB00805BA1 /* Period.swift */; };
+		6D7E1E9A22F00A8C00805BA1 /* DayAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9922F00A8C00805BA1 /* DayAndTime.swift */; };
+		6D7E1E9B22F00A8C00805BA1 /* DayAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9922F00A8C00805BA1 /* DayAndTime.swift */; };
+		6D7E1E9D22F00AF700805BA1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9C22F00AF700805BA1 /* Photo.swift */; };
+		6D7E1E9E22F00AF700805BA1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9C22F00AF700805BA1 /* Photo.swift */; };
+		6D7E1EA022F00BA100805BA1 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9F22F00BA100805BA1 /* Review.swift */; };
+		6D7E1EA122F00BA100805BA1 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E9F22F00BA100805BA1 /* Review.swift */; };
+		6D7E1EB322F0E81700805BA1 /* ListCarRepairSummaryTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB222F0E81700805BA1 /* ListCarRepairSummaryTest.json */; };
+		6D7E1EB422F0E81700805BA1 /* ListCarRepairSummaryTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB222F0E81700805BA1 /* ListCarRepairSummaryTest.json */; };
+		6D7E1EB622F0E83100805BA1 /* CarRepairDetailTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB522F0E83100805BA1 /* CarRepairDetailTest.json */; };
+		6D7E1EB722F0E83100805BA1 /* CarRepairDetailTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB522F0E83100805BA1 /* CarRepairDetailTest.json */; };
+		6D7E1EBA22F0E85300805BA1 /* ParseForMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB822F0E85300805BA1 /* ParseForMock.swift */; };
+		6D7E1EBD22F0E86000805BA1 /* ParseForMockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EBB22F0E86000805BA1 /* ParseForMockTest.swift */; };
+		6D7E1EBF22F0EA5700805BA1 /* ObtainCarRepairSummaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EBE22F0EA5700805BA1 /* ObtainCarRepairSummaryTest.swift */; };
+		6D7E1EC022F0EE4700805BA1 /* ParseForMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EB822F0E85300805BA1 /* ParseForMock.swift */; };
+		6D7E1EC222F0FF0000805BA1 /* TestABC.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EC122F0FF0000805BA1 /* TestABC.json */; };
+		6D7E1EC322F0FF0000805BA1 /* TestABC.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1EC122F0FF0000805BA1 /* TestABC.json */; };
+		6D7E1EC922F13AE800805BA1 /* CarRepairSummaryProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EC822F13AE800805BA1 /* CarRepairSummaryProviderMock.swift */; };
+		6D7E1ECB22F13AFB00805BA1 /* CarRepairSummaryProviderMockForFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ECA22F13AFB00805BA1 /* CarRepairSummaryProviderMockForFailure.swift */; };
+		6D7E1ECD22F13B0800805BA1 /* CarRepairSummaryReceiverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ECC22F13B0800805BA1 /* CarRepairSummaryReceiverMock.swift */; };
+		6D7E1ECF22F13C7F00805BA1 /* ListCarRepairSummaryTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ECE22F13C7F00805BA1 /* ListCarRepairSummaryTestData.swift */; };
+		6D7E1ED122F13F4300805BA1 /* CarRepairDetailTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ED022F13F4300805BA1 /* CarRepairDetailTestData.swift */; };
+		6D7E1ED322F13FBC00805BA1 /* ObtainCarRepairDetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ED222F13FBC00805BA1 /* ObtainCarRepairDetailTest.swift */; };
+		6D7E1ED522F13FD400805BA1 /* CarRepairDetailProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ED422F13FD400805BA1 /* CarRepairDetailProviderMock.swift */; };
+		6D7E1ED722F13FE100805BA1 /* CarRepairDetailProviderMockForFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ED622F13FE100805BA1 /* CarRepairDetailProviderMockForFailure.swift */; };
+		6D7E1ED922F13FEF00805BA1 /* CarRepairDetailReceiverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1ED822F13FEF00805BA1 /* CarRepairDetailReceiverMock.swift */; };
+		6D7E1EE222F1478700805BA1 /* DefaultHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE122F1478700805BA1 /* DefaultHTTPClient.swift */; };
+		6D7E1EE322F1478700805BA1 /* DefaultHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE122F1478700805BA1 /* DefaultHTTPClient.swift */; };
+		6D7E1EE522F1478E00805BA1 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE422F1478E00805BA1 /* HTTPClient.swift */; };
+		6D7E1EE622F1478E00805BA1 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE422F1478E00805BA1 /* HTTPClient.swift */; };
+		6D7E1EE822F1479800805BA1 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE722F1479800805BA1 /* HTTPMethod.swift */; };
+		6D7E1EE922F1479800805BA1 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EE722F1479800805BA1 /* HTTPMethod.swift */; };
+		6D7E1EEB22F147A000805BA1 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EEA22F147A000805BA1 /* HTTPError.swift */; };
+		6D7E1EEC22F147A000805BA1 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EEA22F147A000805BA1 /* HTTPError.swift */; };
+		6D7E1EEE22F147AA00805BA1 /* RemoteAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EED22F147AA00805BA1 /* RemoteAddress.swift */; };
+		6D7E1EEF22F147AA00805BA1 /* RemoteAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EED22F147AA00805BA1 /* RemoteAddress.swift */; };
+		6D7E1EF122F147B200805BA1 /* RemoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EF022F147B200805BA1 /* RemoteProvider.swift */; };
+		6D7E1EF222F147B200805BA1 /* RemoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EF022F147B200805BA1 /* RemoteProvider.swift */; };
+		6D7E1EFA22F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EF922F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift */; };
+		6D7E1EFB22F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EF922F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift */; };
+		6D7E1EFD22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EFC22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift */; };
+		6D7E1EFE22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1EFC22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift */; };
+		6D7E1F0322F1E2D900805BA1 /* RemoteParametersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0222F1E2D900805BA1 /* RemoteParametersProvider.swift */; };
+		6D7E1F0422F1E2D900805BA1 /* RemoteParametersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0222F1E2D900805BA1 /* RemoteParametersProvider.swift */; };
+		6D7E1F0922F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0822F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift */; };
+		6D7E1F0A22F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0822F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift */; };
+		6D7E1F0C22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0B22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift */; };
+		6D7E1F0D22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0B22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift */; };
+		6D7E1F0F22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0E22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift */; };
+		6D7E1F1022F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F0E22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift */; };
+		6D7E1F1222F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1122F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift */; };
+		6D7E1F1322F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1122F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift */; };
+		6D7E1F1522F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1422F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift */; };
+		6D7E1F1622F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1422F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift */; };
+		6D7E1F1822F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1722F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift */; };
+		6D7E1F1922F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F1722F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift */; };
+		6D7E1F3922F2069600805BA1 /* NavigationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3822F2069600805BA1 /* NavigationEffect.swift */; };
+		6D7E1F3A22F2069600805BA1 /* NavigationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3822F2069600805BA1 /* NavigationEffect.swift */; };
+		6D7E1F3C22F206B200805BA1 /* NavigationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3B22F206B100805BA1 /* NavigationMode.swift */; };
+		6D7E1F3D22F206B200805BA1 /* NavigationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3B22F206B100805BA1 /* NavigationMode.swift */; };
+		6D7E1F3F22F206E700805BA1 /* BasicDestinationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3E22F206E700805BA1 /* BasicDestinationBehavior.swift */; };
+		6D7E1F4022F206E700805BA1 /* BasicDestinationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F3E22F206E700805BA1 /* BasicDestinationBehavior.swift */; };
+		6D7E1F4222F206ED00805BA1 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4122F206ED00805BA1 /* Destination.swift */; };
+		6D7E1F4322F206ED00805BA1 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4122F206ED00805BA1 /* Destination.swift */; };
+		6D7E1F4622F207DF00805BA1 /* DefaultNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4522F207DF00805BA1 /* DefaultNavigator.swift */; };
+		6D7E1F4722F207DF00805BA1 /* DefaultNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4522F207DF00805BA1 /* DefaultNavigator.swift */; };
+		6D7E1F4C22F2080C00805BA1 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4B22F2080C00805BA1 /* Navigator.swift */; };
+		6D7E1F4D22F2080C00805BA1 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4B22F2080C00805BA1 /* Navigator.swift */; };
+		6D7E1F4F22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4E22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift */; };
+		6D7E1F5022F20A2300805BA1 /* ViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F4E22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift */; };
+		6D7E1F5222F20B0C00805BA1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5122F20B0C00805BA1 /* ActivityIndicator.swift */; };
+		6D7E1F5322F20B0C00805BA1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5122F20B0C00805BA1 /* ActivityIndicator.swift */; };
+		6D7E1F5722F2294500805BA1 /* AlertMessageDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5622F2294500805BA1 /* AlertMessageDestination.swift */; };
+		6D7E1F5822F2294600805BA1 /* AlertMessageDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5622F2294500805BA1 /* AlertMessageDestination.swift */; };
+		6D7E1F5A22F2295100805BA1 /* AlertMessageDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5922F2295100805BA1 /* AlertMessageDestinationConfiguration.swift */; };
+		6D7E1F5B22F2295100805BA1 /* AlertMessageDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5922F2295100805BA1 /* AlertMessageDestinationConfiguration.swift */; };
+		6D7E1F5D22F2295D00805BA1 /* AlertMessageTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5C22F2295D00805BA1 /* AlertMessageTypeDestination.swift */; };
+		6D7E1F5E22F2295D00805BA1 /* AlertMessageTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5C22F2295D00805BA1 /* AlertMessageTypeDestination.swift */; };
+		6D7E1F6022F22FFF00805BA1 /* BaseConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5F22F22FFF00805BA1 /* BaseConfigurationViewController.swift */; };
+		6D7E1F6122F22FFF00805BA1 /* BaseConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F5F22F22FFF00805BA1 /* BaseConfigurationViewController.swift */; };
+		6D7E1F6322F2315B00805BA1 /* DefaultObtainImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6222F2315B00805BA1 /* DefaultObtainImage.swift */; };
+		6D7E1F6422F2315B00805BA1 /* DefaultObtainImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6222F2315B00805BA1 /* DefaultObtainImage.swift */; };
+		6D7E1F6622F238E600805BA1 /* ListCarRepairSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6522F238E600805BA1 /* ListCarRepairSummaryViewController.swift */; };
+		6D7E1F6722F238E600805BA1 /* ListCarRepairSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6522F238E600805BA1 /* ListCarRepairSummaryViewController.swift */; };
+		6D7E1F6922F2393600805BA1 /* CarRepairSummaryShowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6822F2393600805BA1 /* CarRepairSummaryShowScreen.swift */; };
+		6D7E1F6A22F2393600805BA1 /* CarRepairSummaryShowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6822F2393600805BA1 /* CarRepairSummaryShowScreen.swift */; };
+		6D7E1F6C22F2394E00805BA1 /* CarRepairPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6B22F2394E00805BA1 /* CarRepairPresenter.swift */; };
+		6D7E1F6D22F2394E00805BA1 /* CarRepairPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6B22F2394E00805BA1 /* CarRepairPresenter.swift */; };
+		6D7E1F6F22F24B4100805BA1 /* CarRepairSummaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E1F6E22F24B4100805BA1 /* CarRepairSummaryStoryboard.storyboard */; };
+		6D7E1F7122F2506100805BA1 /* CarRepairSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7022F2506100805BA1 /* CarRepairSummaryTableViewCell.swift */; };
+		6D7E1F7522F256BE00805BA1 /* TableViewForCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7422F256BE00805BA1 /* TableViewForCarRepairSummary.swift */; };
+		6D7E1F7722F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7622F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift */; };
+		6D8C9DB722F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DB622F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift */; };
+		6D8C9DB822F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DB622F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift */; };
+		6D8C9DC322F7DC8200120EB0 /* NaviteComponentsBehaviort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC222F7DC8200120EB0 /* NaviteComponentsBehaviort.swift */; };
+		6D8C9DC422F7DC8200120EB0 /* NaviteComponentsBehaviort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC222F7DC8200120EB0 /* NaviteComponentsBehaviort.swift */; };
+		6D8C9DC622F7E39600120EB0 /* SafariViewControllerDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC522F7E39600120EB0 /* SafariViewControllerDestination.swift */; };
+		6D8C9DC722F7E39600120EB0 /* SafariViewControllerDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC522F7E39600120EB0 /* SafariViewControllerDestination.swift */; };
+		6D8C9DC922F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC822F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift */; };
+		6D8C9DCA22F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DC822F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift */; };
+		6D8C9DCC22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DCB22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift */; };
+		6D8C9DCD22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DCB22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift */; };
+		6D8C9DCE22F7E9D300120EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1E2D22EFEDBA00805BA1 /* AppDelegate.swift */; };
+		6D8C9DEE22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DED22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift */; };
+		6D8C9DEF22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DED22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift */; };
+		6D8C9DF922F8E09D00120EB0 /* ViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DF822F8E09D00120EB0 /* ViewBorder.swift */; };
+		6D8C9DFA22F8E09D00120EB0 /* ViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DF822F8E09D00120EB0 /* ViewBorder.swift */; };
+		6D8C9DFC22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DFB22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift */; };
+		6D8C9DFD22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DFB22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift */; };
+		6D8C9DFF22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DFE22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift */; };
+		6D8C9E0022F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9DFE22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift */; };
+		6D9FFD3A22F29A83003BCC49 /* TableViewForCarRepairSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7422F256BE00805BA1 /* TableViewForCarRepairSummary.swift */; };
+		6D9FFD3B22F29A8C003BCC49 /* ListCarRepairSummaryViewControllerConfigureLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7622F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift */; };
+		6D9FFD3E22F29C25003BCC49 /* CarRepairSummaryDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD3D22F29C25003BCC49 /* CarRepairSummaryDestination.swift */; };
+		6D9FFD3F22F29C25003BCC49 /* CarRepairSummaryDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD3D22F29C25003BCC49 /* CarRepairSummaryDestination.swift */; };
+		6D9FFD4122F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4022F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift */; };
+		6D9FFD4222F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4022F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift */; };
+		6D9FFD4422F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4322F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift */; };
+		6D9FFD4522F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4322F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift */; };
+		6D9FFD4622F2ADF2003BCC49 /* CarRepairSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E1F7022F2506100805BA1 /* CarRepairSummaryTableViewCell.swift */; };
+		6D9FFD4822F2B2D9003BCC49 /* CarRepairDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4722F2B2D9003BCC49 /* CarRepairDetailViewController.swift */; };
+		6D9FFD4922F2B2D9003BCC49 /* CarRepairDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4722F2B2D9003BCC49 /* CarRepairDetailViewController.swift */; };
+		6D9FFD4B22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4A22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift */; };
+		6D9FFD4C22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4A22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift */; };
+		6D9FFD4E22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4D22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard */; };
+		6D9FFD4F22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9FFD4D22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard */; };
+		6D9FFD5122F2B34B003BCC49 /* CarRepairDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5022F2B34B003BCC49 /* CarRepairDetailPresenter.swift */; };
+		6D9FFD5222F2B34B003BCC49 /* CarRepairDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5022F2B34B003BCC49 /* CarRepairDetailPresenter.swift */; };
+		6D9FFD5422F2B356003BCC49 /* CarRepairDetailShowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5322F2B356003BCC49 /* CarRepairDetailShowScreen.swift */; };
+		6D9FFD5522F2B356003BCC49 /* CarRepairDetailShowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5322F2B356003BCC49 /* CarRepairDetailShowScreen.swift */; };
+		6D9FFD5822F2B369003BCC49 /* CarRepairDetailDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5722F2B369003BCC49 /* CarRepairDetailDestination.swift */; };
+		6D9FFD5922F2B369003BCC49 /* CarRepairDetailDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5722F2B369003BCC49 /* CarRepairDetailDestination.swift */; };
+		6D9FFD5B22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5A22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift */; };
+		6D9FFD5C22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5A22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift */; };
+		6D9FFD5E22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5D22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift */; };
+		6D9FFD5F22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD5D22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift */; };
+		6D9FFD6122F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD6022F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift */; };
+		6D9FFD6222F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FFD6022F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift */; };
+		6DB7301422F3D361002AA7D5 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301222F3D361002AA7D5 /* DescriptionTableViewCell.swift */; };
+		6DB7301522F3D361002AA7D5 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301222F3D361002AA7D5 /* DescriptionTableViewCell.swift */; };
+		6DB7301622F3D361002AA7D5 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301322F3D361002AA7D5 /* DescriptionTableViewCell.xib */; };
+		6DB7301722F3D361002AA7D5 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301322F3D361002AA7D5 /* DescriptionTableViewCell.xib */; };
+		6DB7301A22F3D36C002AA7D5 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301822F3D36C002AA7D5 /* MapTableViewCell.swift */; };
+		6DB7301B22F3D36C002AA7D5 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301822F3D36C002AA7D5 /* MapTableViewCell.swift */; };
+		6DB7301C22F3D36C002AA7D5 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301922F3D36C002AA7D5 /* MapTableViewCell.xib */; };
+		6DB7301D22F3D36C002AA7D5 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301922F3D36C002AA7D5 /* MapTableViewCell.xib */; };
+		6DB7302022F3D37A002AA7D5 /* WeekdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301E22F3D37A002AA7D5 /* WeekdayTableViewCell.swift */; };
+		6DB7302122F3D37A002AA7D5 /* WeekdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7301E22F3D37A002AA7D5 /* WeekdayTableViewCell.swift */; };
+		6DB7302222F3D37A002AA7D5 /* WeekdayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301F22F3D37A002AA7D5 /* WeekdayTableViewCell.xib */; };
+		6DB7302322F3D37A002AA7D5 /* WeekdayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7301F22F3D37A002AA7D5 /* WeekdayTableViewCell.xib */; };
+		6DB7302622F3D389002AA7D5 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7302422F3D389002AA7D5 /* PhotosTableViewCell.swift */; };
+		6DB7302722F3D389002AA7D5 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7302422F3D389002AA7D5 /* PhotosTableViewCell.swift */; };
+		6DB7302822F3D389002AA7D5 /* PhotosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7302522F3D389002AA7D5 /* PhotosTableViewCell.xib */; };
+		6DB7302922F3D389002AA7D5 /* PhotosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7302522F3D389002AA7D5 /* PhotosTableViewCell.xib */; };
+		6DB7302C22F3D395002AA7D5 /* TypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7302A22F3D395002AA7D5 /* TypesTableViewCell.swift */; };
+		6DB7302D22F3D395002AA7D5 /* TypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7302A22F3D395002AA7D5 /* TypesTableViewCell.swift */; };
+		6DB7302E22F3D395002AA7D5 /* TypesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7302B22F3D395002AA7D5 /* TypesTableViewCell.xib */; };
+		6DB7302F22F3D395002AA7D5 /* TypesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7302B22F3D395002AA7D5 /* TypesTableViewCell.xib */; };
+		6DB7303222F3D3A2002AA7D5 /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7303022F3D3A2002AA7D5 /* ReviewsTableViewCell.swift */; };
+		6DB7303322F3D3A2002AA7D5 /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7303022F3D3A2002AA7D5 /* ReviewsTableViewCell.swift */; };
+		6DB7303422F3D3A2002AA7D5 /* ReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7303122F3D3A2002AA7D5 /* ReviewsTableViewCell.xib */; };
+		6DB7303522F3D3A2002AA7D5 /* ReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7303122F3D3A2002AA7D5 /* ReviewsTableViewCell.xib */; };
+		6DDF1BB822F40E2800AD9F09 /* IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF1BB722F40E2800AD9F09 /* IdentifiableCell.swift */; };
+		6DDF1BB922F40E2800AD9F09 /* IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF1BB722F40E2800AD9F09 /* IdentifiableCell.swift */; };
+		EE0FAA98E7B685C65BD2BC4A /* Pods_OficinasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EE2C64AA4432A07352E0BC /* Pods_OficinasUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +233,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51C5CA7A2ADECA18EB7ED5E5 /* Pods-Oficinas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.release.xcconfig"; sourceTree = "<group>"; };
+		5E53733451B8C96BEABD77F1 /* Pods-OficinasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasTests/Pods-OficinasTests.release.xcconfig"; sourceTree = "<group>"; };
+		657742707B590FF37F6FE6B9 /* Pods-Oficinas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oficinas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas.debug.xcconfig"; sourceTree = "<group>"; };
+		68768EE4B731C8EDF63E220E /* Pods_OficinasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OficinasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78118822F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailViewControllerNavigationBehavior.swift; sourceTree = "<group>"; };
+		6D78118B22F52CFC0048DC7F /* CarRepairDestinationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDestinationScreen.swift; sourceTree = "<group>"; };
+		6D78118E22F606D60048DC7F /* AccessNativeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessNativeComponents.swift; sourceTree = "<group>"; };
+		6D78119322F60D620048DC7F /* ApplicationSharedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSharedComponent.swift; sourceTree = "<group>"; };
 		6D7E1E2A22EFEDBA00805BA1 /* Oficinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oficinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7E1E2D22EFEDBA00805BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D7E1E2F22EFEDBA00805BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D7E1E3222EFEDBA00805BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D7E1E3422EFEDBC00805BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D7E1E3722EFEDBC00805BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D7E1E3922EFEDBC00805BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D7E1E3E22EFEDBC00805BA1 /* OficinasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OficinasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D7E1E4222EFEDBC00805BA1 /* OficinasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OficinasTests.swift; sourceTree = "<group>"; };
 		6D7E1E4422EFEDBC00805BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D7E1E4922EFEDBC00805BA1 /* OficinasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OficinasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7E1E4D22EFEDBC00805BA1 /* OficinasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OficinasUITests.swift; sourceTree = "<group>"; };
 		6D7E1E4F22EFEDBC00805BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7E1E6322EFF48500805BA1 /* ParameterizedUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterizedUseCase.swift; sourceTree = "<group>"; };
+		6D7E1E6922EFFA4A00805BA1 /* ListCarRepairSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummary.swift; sourceTree = "<group>"; };
+		6D7E1E6C22EFFA5800805BA1 /* CarRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepair.swift; sourceTree = "<group>"; };
+		6D7E1E6F22EFFB2700805BA1 /* OpeningHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHour.swift; sourceTree = "<group>"; };
+		6D7E1E7422F004EB00805BA1 /* ObtainCarRepairSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairSummary.swift; sourceTree = "<group>"; };
+		6D7E1E7722F004FF00805BA1 /* CarRepairSummaryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryProvider.swift; sourceTree = "<group>"; };
+		6D7E1E7A22F0050D00805BA1 /* CarRepairSummaryProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryProviderError.swift; sourceTree = "<group>"; };
+		6D7E1E7D22F0051600805BA1 /* CarRepairSummaryReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryReceiver.swift; sourceTree = "<group>"; };
+		6D7E1E8022F006CB00805BA1 /* ObtainCarRepairDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairDetail.swift; sourceTree = "<group>"; };
+		6D7E1E8522F006F600805BA1 /* CarRepairDetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailProvider.swift; sourceTree = "<group>"; };
+		6D7E1E8822F0070200805BA1 /* CarRepairDetailProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailProviderError.swift; sourceTree = "<group>"; };
+		6D7E1E8B22F0070A00805BA1 /* CarRepairDetailReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailReceiver.swift; sourceTree = "<group>"; };
+		6D7E1E8E22F008EE00805BA1 /* CarRepairDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetail.swift; sourceTree = "<group>"; };
+		6D7E1E9622F009FB00805BA1 /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		6D7E1E9922F00A8C00805BA1 /* DayAndTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAndTime.swift; sourceTree = "<group>"; };
+		6D7E1E9C22F00AF700805BA1 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		6D7E1E9F22F00BA100805BA1 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		6D7E1EB222F0E81700805BA1 /* ListCarRepairSummaryTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListCarRepairSummaryTest.json; sourceTree = "<group>"; };
+		6D7E1EB522F0E83100805BA1 /* CarRepairDetailTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CarRepairDetailTest.json; sourceTree = "<group>"; };
+		6D7E1EB822F0E85300805BA1 /* ParseForMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseForMock.swift; sourceTree = "<group>"; };
+		6D7E1EBB22F0E86000805BA1 /* ParseForMockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseForMockTest.swift; sourceTree = "<group>"; };
+		6D7E1EBE22F0EA5700805BA1 /* ObtainCarRepairSummaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairSummaryTest.swift; sourceTree = "<group>"; };
+		6D7E1EC122F0FF0000805BA1 /* TestABC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestABC.json; sourceTree = "<group>"; };
+		6D7E1EC822F13AE800805BA1 /* CarRepairSummaryProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryProviderMock.swift; sourceTree = "<group>"; };
+		6D7E1ECA22F13AFB00805BA1 /* CarRepairSummaryProviderMockForFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryProviderMockForFailure.swift; sourceTree = "<group>"; };
+		6D7E1ECC22F13B0800805BA1 /* CarRepairSummaryReceiverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryReceiverMock.swift; sourceTree = "<group>"; };
+		6D7E1ECE22F13C7F00805BA1 /* ListCarRepairSummaryTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummaryTestData.swift; sourceTree = "<group>"; };
+		6D7E1ED022F13F4300805BA1 /* CarRepairDetailTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailTestData.swift; sourceTree = "<group>"; };
+		6D7E1ED222F13FBC00805BA1 /* ObtainCarRepairDetailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairDetailTest.swift; sourceTree = "<group>"; };
+		6D7E1ED422F13FD400805BA1 /* CarRepairDetailProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailProviderMock.swift; sourceTree = "<group>"; };
+		6D7E1ED622F13FE100805BA1 /* CarRepairDetailProviderMockForFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailProviderMockForFailure.swift; sourceTree = "<group>"; };
+		6D7E1ED822F13FEF00805BA1 /* CarRepairDetailReceiverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailReceiverMock.swift; sourceTree = "<group>"; };
+		6D7E1EE122F1478700805BA1 /* DefaultHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHTTPClient.swift; sourceTree = "<group>"; };
+		6D7E1EE422F1478E00805BA1 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		6D7E1EE722F1479800805BA1 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6D7E1EEA22F147A000805BA1 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		6D7E1EED22F147AA00805BA1 /* RemoteAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddress.swift; sourceTree = "<group>"; };
+		6D7E1EF022F147B200805BA1 /* RemoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProvider.swift; sourceTree = "<group>"; };
+		6D7E1EF922F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCarRepairDetailProvider.swift; sourceTree = "<group>"; };
+		6D7E1EFC22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCarRepairSummaryProvider.swift; sourceTree = "<group>"; };
+		6D7E1F0222F1E2D900805BA1 /* RemoteParametersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteParametersProvider.swift; sourceTree = "<group>"; };
+		6D7E1F0822F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCarRepairSummaryExecutor.swift; sourceTree = "<group>"; };
+		6D7E1F0B22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairSummaryExecutor.swift; sourceTree = "<group>"; };
+		6D7E1F0E22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairSummaryExecutorError.swift; sourceTree = "<group>"; };
+		6D7E1F1122F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCarRepairDetailExecutor.swift; sourceTree = "<group>"; };
+		6D7E1F1422F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairDetailExecutor.swift; sourceTree = "<group>"; };
+		6D7E1F1722F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObtainCarRepairDetailExecutorError.swift; sourceTree = "<group>"; };
+		6D7E1F3822F2069600805BA1 /* NavigationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEffect.swift; sourceTree = "<group>"; };
+		6D7E1F3B22F206B100805BA1 /* NavigationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMode.swift; sourceTree = "<group>"; };
+		6D7E1F3E22F206E700805BA1 /* BasicDestinationBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDestinationBehavior.swift; sourceTree = "<group>"; };
+		6D7E1F4122F206ED00805BA1 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		6D7E1F4522F207DF00805BA1 /* DefaultNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavigator.swift; sourceTree = "<group>"; };
+		6D7E1F4B22F2080C00805BA1 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6D7E1F4E22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNavigationBehavior.swift; sourceTree = "<group>"; };
+		6D7E1F5122F20B0C00805BA1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6D7E1F5622F2294500805BA1 /* AlertMessageDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageDestination.swift; sourceTree = "<group>"; };
+		6D7E1F5922F2295100805BA1 /* AlertMessageDestinationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageDestinationConfiguration.swift; sourceTree = "<group>"; };
+		6D7E1F5C22F2295D00805BA1 /* AlertMessageTypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessageTypeDestination.swift; sourceTree = "<group>"; };
+		6D7E1F5F22F22FFF00805BA1 /* BaseConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfigurationViewController.swift; sourceTree = "<group>"; };
+		6D7E1F6222F2315B00805BA1 /* DefaultObtainImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultObtainImage.swift; sourceTree = "<group>"; };
+		6D7E1F6522F238E600805BA1 /* ListCarRepairSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummaryViewController.swift; sourceTree = "<group>"; };
+		6D7E1F6822F2393600805BA1 /* CarRepairSummaryShowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryShowScreen.swift; sourceTree = "<group>"; };
+		6D7E1F6B22F2394E00805BA1 /* CarRepairPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairPresenter.swift; sourceTree = "<group>"; };
+		6D7E1F6E22F24B4100805BA1 /* CarRepairSummaryStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarRepairSummaryStoryboard.storyboard; sourceTree = "<group>"; };
+		6D7E1F7022F2506100805BA1 /* CarRepairSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		6D7E1F7422F256BE00805BA1 /* TableViewForCarRepairSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewForCarRepairSummary.swift; sourceTree = "<group>"; };
+		6D7E1F7622F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummaryViewControllerConfigureLocation.swift; sourceTree = "<group>"; };
+		6D8C9DB622F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessiblePhoneAndSiteComponents.swift; sourceTree = "<group>"; };
+		6D8C9DC222F7DC8200120EB0 /* NaviteComponentsBehaviort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviteComponentsBehaviort.swift; sourceTree = "<group>"; };
+		6D8C9DC522F7E39600120EB0 /* SafariViewControllerDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewControllerDestination.swift; sourceTree = "<group>"; };
+		6D8C9DC822F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewControllerDestinationConfiguration.swift; sourceTree = "<group>"; };
+		6D8C9DCB22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewControllerTypeDestination.swift; sourceTree = "<group>"; };
+		6D8C9DED22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingPropertiesCarRepair.swift; sourceTree = "<group>"; };
+		6D8C9DF822F8E09D00120EB0 /* ViewBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBorder.swift; sourceTree = "<group>"; };
+		6D8C9DFB22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummaryViewControllerConfigureRequests.swift; sourceTree = "<group>"; };
+		6D8C9DFE22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarRepairSummaryViewControllerConfigureUICompents.swift; sourceTree = "<group>"; };
+		6D9FFD3D22F29C25003BCC49 /* CarRepairSummaryDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryDestination.swift; sourceTree = "<group>"; };
+		6D9FFD4022F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryDestinationConfiguration.swift; sourceTree = "<group>"; };
+		6D9FFD4322F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryTypeDestination.swift; sourceTree = "<group>"; };
+		6D9FFD4722F2B2D9003BCC49 /* CarRepairDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailViewController.swift; sourceTree = "<group>"; };
+		6D9FFD4A22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewForCarRepairDetail.swift; sourceTree = "<group>"; };
+		6D9FFD4D22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarRepairDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		6D9FFD5022F2B34B003BCC49 /* CarRepairDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailPresenter.swift; sourceTree = "<group>"; };
+		6D9FFD5322F2B356003BCC49 /* CarRepairDetailShowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailShowScreen.swift; sourceTree = "<group>"; };
+		6D9FFD5722F2B369003BCC49 /* CarRepairDetailDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailDestination.swift; sourceTree = "<group>"; };
+		6D9FFD5A22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailDestinationConfiguration.swift; sourceTree = "<group>"; };
+		6D9FFD5D22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairDetailTypeDestination.swift; sourceTree = "<group>"; };
+		6D9FFD6022F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairSummaryViewControllerNavigationBehavior.swift; sourceTree = "<group>"; };
+		6DB7301222F3D361002AA7D5 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7301322F3D361002AA7D5 /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		6DB7301822F3D36C002AA7D5 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7301922F3D36C002AA7D5 /* MapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		6DB7301E22F3D37A002AA7D5 /* WeekdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7301F22F3D37A002AA7D5 /* WeekdayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekdayTableViewCell.xib; sourceTree = "<group>"; };
+		6DB7302422F3D389002AA7D5 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7302522F3D389002AA7D5 /* PhotosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosTableViewCell.xib; sourceTree = "<group>"; };
+		6DB7302A22F3D395002AA7D5 /* TypesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7302B22F3D395002AA7D5 /* TypesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypesTableViewCell.xib; sourceTree = "<group>"; };
+		6DB7303022F3D3A2002AA7D5 /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		6DB7303122F3D3A2002AA7D5 /* ReviewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		6DDF1BB722F40E2800AD9F09 /* IdentifiableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableCell.swift; sourceTree = "<group>"; };
+		7823073CEB187FAC24C61789 /* Pods_Oficinas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oficinas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9689046DA22CAF58196C2558 /* Pods-OficinasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasTests/Pods-OficinasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80BDA656ED52BC8FC3D396E /* Pods-OficinasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasUITests/Pods-OficinasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADEF3B8580B2C15F1AC7212B /* Pods-OficinasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OficinasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OficinasUITests/Pods-OficinasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9EE2C64AA4432A07352E0BC /* Pods_OficinasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OficinasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +364,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220F046E04AE258790F6D822 /* Pods_Oficinas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +372,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06160108E61E36B0792C0DD5 /* Pods_OficinasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +380,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0FAA98E7B685C65BD2BC4A /* Pods_OficinasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D78119122F60C250048DC7F /* ApplicationSharedComponent */ = {
+			isa = PBXGroup;
+			children = (
+				6D78119322F60D620048DC7F /* ApplicationSharedComponent.swift */,
+			);
+			path = ApplicationSharedComponent;
+			sourceTree = "<group>";
+		};
+		6D78119222F60C280048DC7F /* SafariViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9DC522F7E39600120EB0 /* SafariViewControllerDestination.swift */,
+				6D8C9DC822F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift */,
+				6D8C9DCB22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift */,
+			);
+			path = SafariViewController;
+			sourceTree = "<group>";
+		};
 		6D7E1E2122EFEDBA00805BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +412,8 @@
 				6D7E1E4122EFEDBC00805BA1 /* OficinasTests */,
 				6D7E1E4C22EFEDBC00805BA1 /* OficinasUITests */,
 				6D7E1E2B22EFEDBA00805BA1 /* Products */,
+				B19BA88C5845FD5ADA047707 /* Pods */,
+				D78A5B9F3FBB8290B2BB0C11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +430,11 @@
 		6D7E1E2C22EFEDBA00805BA1 /* Oficinas */ = {
 			isa = PBXGroup;
 			children = (
-				6D7E1E2D22EFEDBA00805BA1 /* AppDelegate.swift */,
-				6D7E1E2F22EFEDBA00805BA1 /* ViewController.swift */,
-				6D7E1E3122EFEDBA00805BA1 /* Main.storyboard */,
-				6D7E1E3422EFEDBC00805BA1 /* Assets.xcassets */,
-				6D7E1E3622EFEDBC00805BA1 /* LaunchScreen.storyboard */,
-				6D7E1E3922EFEDBC00805BA1 /* Info.plist */,
+				6D7E1E5E22EFF34E00805BA1 /* Source */,
+				6D7E1E5D22EFF34D00805BA1 /* Core */,
+				6D7E1E5C22EFF34C00805BA1 /* Boundary */,
+				6D7E1E5B22EFF34B00805BA1 /* Infrastructure */,
+				6D7E1E5F22EFF37200805BA1 /* Presentation */,
 			);
 			path = Oficinas;
 			sourceTree = "<group>";
@@ -110,7 +442,8 @@
 		6D7E1E4122EFEDBC00805BA1 /* OficinasTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D7E1E4222EFEDBC00805BA1 /* OficinasTests.swift */,
+				6D7E1EA622F0E6C500805BA1 /* Core */,
+				6D7E1EA522F0E6C300805BA1 /* New Group */,
 				6D7E1E4422EFEDBC00805BA1 /* Info.plist */,
 			);
 			path = OficinasTests;
@@ -125,6 +458,793 @@
 			path = OficinasUITests;
 			sourceTree = "<group>";
 		};
+		6D7E1E5B22EFF34B00805BA1 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EDB22F1473400805BA1 /* Shared */,
+				6D7E1EDA22F1473300805BA1 /* CarRepair */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6D7E1E5C22EFF34C00805BA1 /* Boundary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F0522F1E7D100805BA1 /* CarRepair */,
+			);
+			path = Boundary;
+			sourceTree = "<group>";
+		};
+		6D7E1E5D22EFF34D00805BA1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6122EFF46100805BA1 /* Shared */,
+				6D7E1E6022EFF45D00805BA1 /* CarRepair */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6D7E1E5E22EFF34E00805BA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E2D22EFEDBA00805BA1 /* AppDelegate.swift */,
+				6D7E1E3422EFEDBC00805BA1 /* Assets.xcassets */,
+				6D7E1E3622EFEDBC00805BA1 /* LaunchScreen.storyboard */,
+				6D7E1E3922EFEDBC00805BA1 /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6D7E1E5F22EFF37200805BA1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F1B22F2047B00805BA1 /* Shared */,
+				6D7E1F1A22F2047A00805BA1 /* CarRepair */,
+				6D7E1F1C22F2048B00805BA1 /* Destination */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6D7E1E6022EFF45D00805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6822EFF4B300805BA1 /* Model */,
+				6D7E1E6722EFF4B100805BA1 /* CarRepairSummary */,
+				6D7E1E6622EFF4AE00805BA1 /* CarRepairDetail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1E6122EFF46100805BA1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6222EFF46800805BA1 /* UseCase */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D7E1E6222EFF46800805BA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6322EFF48500805BA1 /* ParameterizedUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D7E1E6622EFF4AE00805BA1 /* CarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E8322F006D000805BA1 /* UseCase */,
+			);
+			path = CarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1E6722EFF4B100805BA1 /* CarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E7222F0022600805BA1 /* UseCase */,
+			);
+			path = CarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1E6822EFF4B300805BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6F22EFFB2700805BA1 /* OpeningHour.swift */,
+				6D7E1E9622F009FB00805BA1 /* Period.swift */,
+				6D7E1E9922F00A8C00805BA1 /* DayAndTime.swift */,
+				6D7E1E9C22F00AF700805BA1 /* Photo.swift */,
+				6D7E1E9F22F00BA100805BA1 /* Review.swift */,
+				6D7E1E9522F0090B00805BA1 /* Summary */,
+				6D7E1E9422F0090A00805BA1 /* Detail */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D7E1E7222F0022600805BA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E7322F0022800805BA1 /* ObtainCarRapairSummary */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D7E1E7322F0022800805BA1 /* ObtainCarRapairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E7422F004EB00805BA1 /* ObtainCarRepairSummary.swift */,
+				6D7E1E7722F004FF00805BA1 /* CarRepairSummaryProvider.swift */,
+				6D7E1E7A22F0050D00805BA1 /* CarRepairSummaryProviderError.swift */,
+				6D7E1E7D22F0051600805BA1 /* CarRepairSummaryReceiver.swift */,
+			);
+			path = ObtainCarRapairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1E8322F006D000805BA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E8422F006D500805BA1 /* ObtainCarRepairDetail */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D7E1E8422F006D500805BA1 /* ObtainCarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E8022F006CB00805BA1 /* ObtainCarRepairDetail.swift */,
+				6D7E1E8522F006F600805BA1 /* CarRepairDetailProvider.swift */,
+				6D7E1E8822F0070200805BA1 /* CarRepairDetailProviderError.swift */,
+				6D7E1E8B22F0070A00805BA1 /* CarRepairDetailReceiver.swift */,
+			);
+			path = ObtainCarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1E9422F0090A00805BA1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E8E22F008EE00805BA1 /* CarRepairDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6D7E1E9522F0090B00805BA1 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1E6922EFFA4A00805BA1 /* ListCarRepairSummary.swift */,
+				6D7E1E6C22EFFA5800805BA1 /* CarRepair.swift */,
+				6D8C9DED22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		6D7E1EA522F0E6C300805BA1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6D7E1EA622F0E6C500805BA1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EA922F0E6DF00805BA1 /* Shared */,
+				6D7E1EA822F0E6DB00805BA1 /* CarRepair */,
+				6D7E1EA722F0E6D000805BA1 /* New Group */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6D7E1EA722F0E6D000805BA1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6D7E1EA822F0E6DB00805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EAD22F0E76200805BA1 /* Model */,
+				6D7E1EAC22F0E76000805BA1 /* CarRepairSummary */,
+				6D7E1EAB22F0E75900805BA1 /* CarRepairDetail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1EA922F0E6DF00805BA1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EAA22F0E6ED00805BA1 /* JSON */,
+				6D7E1EB822F0E85300805BA1 /* ParseForMock.swift */,
+				6D7E1EBB22F0E86000805BA1 /* ParseForMockTest.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D7E1EAA22F0E6ED00805BA1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EB222F0E81700805BA1 /* ListCarRepairSummaryTest.json */,
+				6D7E1EB522F0E83100805BA1 /* CarRepairDetailTest.json */,
+				6D7E1EC122F0FF0000805BA1 /* TestABC.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		6D7E1EAB22F0E75900805BA1 /* CarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EB022F0E79200805BA1 /* UseCase */,
+			);
+			path = CarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1EAC22F0E76000805BA1 /* CarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EAE22F0E77A00805BA1 /* UseCase */,
+			);
+			path = CarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1EAD22F0E76200805BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1ECE22F13C7F00805BA1 /* ListCarRepairSummaryTestData.swift */,
+				6D7E1ED022F13F4300805BA1 /* CarRepairDetailTestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D7E1EAE22F0E77A00805BA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EAF22F0E77F00805BA1 /* ObtainCarRepairSummary */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D7E1EAF22F0E77F00805BA1 /* ObtainCarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EBE22F0EA5700805BA1 /* ObtainCarRepairSummaryTest.swift */,
+				6D7E1EC822F13AE800805BA1 /* CarRepairSummaryProviderMock.swift */,
+				6D7E1ECA22F13AFB00805BA1 /* CarRepairSummaryProviderMockForFailure.swift */,
+				6D7E1ECC22F13B0800805BA1 /* CarRepairSummaryReceiverMock.swift */,
+			);
+			path = ObtainCarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1EB022F0E79200805BA1 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EB122F0E79700805BA1 /* ObtainCarRepairDetail */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		6D7E1EB122F0E79700805BA1 /* ObtainCarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1ED222F13FBC00805BA1 /* ObtainCarRepairDetailTest.swift */,
+				6D7E1ED422F13FD400805BA1 /* CarRepairDetailProviderMock.swift */,
+				6D7E1ED622F13FE100805BA1 /* CarRepairDetailProviderMockForFailure.swift */,
+				6D7E1ED822F13FEF00805BA1 /* CarRepairDetailReceiverMock.swift */,
+			);
+			path = ObtainCarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1EDA22F1473300805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF422F14BFD00805BA1 /* CarRepairSummary */,
+				6D7E1EF322F14BFB00805BA1 /* CarRepairDetail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1EDB22F1473400805BA1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EDC22F1475600805BA1 /* Remote */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D7E1EDC22F1475600805BA1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EED22F147AA00805BA1 /* RemoteAddress.swift */,
+				6D7E1EF022F147B200805BA1 /* RemoteProvider.swift */,
+				6D7E1F0222F1E2D900805BA1 /* RemoteParametersProvider.swift */,
+				6D7E1EDD22F1476300805BA1 /* HTTPClient */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		6D7E1EDD22F1476300805BA1 /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EE122F1478700805BA1 /* DefaultHTTPClient.swift */,
+				6D7E1EE422F1478E00805BA1 /* HTTPClient.swift */,
+				6D7E1EE722F1479800805BA1 /* HTTPMethod.swift */,
+				6D7E1EEA22F147A000805BA1 /* HTTPError.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		6D7E1EF322F14BFB00805BA1 /* CarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF722F14C6200805BA1 /* Remote */,
+			);
+			path = CarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1EF422F14BFD00805BA1 /* CarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF522F14C1500805BA1 /* Remote */,
+			);
+			path = CarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1EF522F14C1500805BA1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF622F14C4700805BA1 /* ObtainListCarRepair */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		6D7E1EF622F14C4700805BA1 /* ObtainListCarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EFC22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift */,
+			);
+			path = ObtainListCarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1EF722F14C6200805BA1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF822F14C6600805BA1 /* ObtainCarRepairDetail */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		6D7E1EF822F14C6600805BA1 /* ObtainCarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1EF922F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift */,
+			);
+			path = ObtainCarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1F0522F1E7D100805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F0722F1E7DB00805BA1 /* ObtainCarRepairSummary */,
+				6D7E1F0622F1E7D700805BA1 /* ObtainCarRepairDetail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1F0622F1E7D700805BA1 /* ObtainCarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F1122F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift */,
+				6D7E1F1422F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift */,
+				6D7E1F1722F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift */,
+			);
+			path = ObtainCarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1F0722F1E7DB00805BA1 /* ObtainCarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F0822F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift */,
+				6D7E1F0B22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift */,
+				6D7E1F0E22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift */,
+			);
+			path = ObtainCarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1F1A22F2047A00805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F2522F2054100805BA1 /* CarRepairSummary */,
+				6D7E1F2422F2053F00805BA1 /* CarRepairDetail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1F1B22F2047B00805BA1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9DF022F8D18400120EB0 /* IdentifiableCell */,
+				6D7E1F2322F204F500805BA1 /* ObtainImage */,
+				6D7E1F2222F204F400805BA1 /* BaseConfigurationViewController */,
+				6D7E1F2122F204F200805BA1 /* Alert */,
+				6D7E1F2022F204E400805BA1 /* ActivityIndicator */,
+				6D7E1F1E22F204D900805BA1 /* NativeCompoents */,
+				6D8C9DF722F8E02A00120EB0 /* UIComponents */,
+				6D7E1F1D22F204CE00805BA1 /* Navigation */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D7E1F1C22F2048B00805BA1 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F2622F2056400805BA1 /* CarRepair */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		6D7E1F1D22F204CE00805BA1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F3722F2062300805BA1 /* NavigationBehavior */,
+				6D7E1F3622F2062200805BA1 /* Configuration */,
+				6D7E1F3522F2062100805BA1 /* Destination */,
+				6D7E1F3422F2062000805BA1 /* Navigator */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6D7E1F1E22F204D900805BA1 /* NativeCompoents */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9DB622F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift */,
+				6D8C9DC222F7DC8200120EB0 /* NaviteComponentsBehaviort.swift */,
+				6D78119222F60C280048DC7F /* SafariViewController */,
+				6D78119122F60C250048DC7F /* ApplicationSharedComponent */,
+			);
+			path = NativeCompoents;
+			sourceTree = "<group>";
+		};
+		6D7E1F2022F204E400805BA1 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F5122F20B0C00805BA1 /* ActivityIndicator.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		6D7E1F2122F204F200805BA1 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F5422F2292700805BA1 /* Navigation */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		6D7E1F2222F204F400805BA1 /* BaseConfigurationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F5F22F22FFF00805BA1 /* BaseConfigurationViewController.swift */,
+			);
+			path = BaseConfigurationViewController;
+			sourceTree = "<group>";
+		};
+		6D7E1F2322F204F500805BA1 /* ObtainImage */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F6222F2315B00805BA1 /* DefaultObtainImage.swift */,
+			);
+			path = ObtainImage;
+			sourceTree = "<group>";
+		};
+		6D7E1F2422F2053F00805BA1 /* CarRepairDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F2D22F205A100805BA1 /* ViewController */,
+				6D7E1F2C22F2059F00805BA1 /* View */,
+				6D7E1F2B22F2059D00805BA1 /* Storyboard */,
+				6D7E1F2A22F2059C00805BA1 /* Presenter */,
+				6D7E1F2922F2059800805BA1 /* Navigation */,
+			);
+			path = CarRepairDetail;
+			sourceTree = "<group>";
+		};
+		6D7E1F2522F2054100805BA1 /* CarRepairSummary */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F3222F205C900805BA1 /* ViewController */,
+				6D7E1F3122F205C000805BA1 /* View */,
+				6D7E1F3022F205BF00805BA1 /* Storyboard */,
+				6D7E1F2F22F205BD00805BA1 /* Presenter */,
+				6D7E1F2E22F205BA00805BA1 /* Navigation */,
+			);
+			path = CarRepairSummary;
+			sourceTree = "<group>";
+		};
+		6D7E1F2622F2056400805BA1 /* CarRepair */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F2822F2057000805BA1 /* Summary */,
+				6D7E1F2722F2056700805BA1 /* Detail */,
+			);
+			path = CarRepair;
+			sourceTree = "<group>";
+		};
+		6D7E1F2722F2056700805BA1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6D78118822F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6D7E1F2822F2057000805BA1 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD6022F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		6D7E1F2922F2059800805BA1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD5622F2B35A003BCC49 /* Destination */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6D7E1F2A22F2059C00805BA1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD5022F2B34B003BCC49 /* CarRepairDetailPresenter.swift */,
+				6D9FFD5322F2B356003BCC49 /* CarRepairDetailShowScreen.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6D7E1F2B22F2059D00805BA1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD4D22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6D7E1F2C22F2059F00805BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD4A22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift */,
+				6D78118E22F606D60048DC7F /* AccessNativeComponents.swift */,
+				6DB7301122F3D300002AA7D5 /* DescriptionCell */,
+				6DB7301022F3D2FE002AA7D5 /* MapCell */,
+				6DB7300F22F3D2FD002AA7D5 /* WeekdayCell */,
+				6DB7300E22F3D2FC002AA7D5 /* PhotosCell */,
+				6DB7300D22F3D2FA002AA7D5 /* TypesCell */,
+				6DB7300C22F3D2F8002AA7D5 /* ReviewsCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D7E1F2D22F205A100805BA1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD4722F2B2D9003BCC49 /* CarRepairDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D7E1F2E22F205BA00805BA1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD3C22F29C0D003BCC49 /* Destination */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6D7E1F2F22F205BD00805BA1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F6B22F2394E00805BA1 /* CarRepairPresenter.swift */,
+				6D7E1F6822F2393600805BA1 /* CarRepairSummaryShowScreen.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6D7E1F3022F205BF00805BA1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F6E22F24B4100805BA1 /* CarRepairSummaryStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6D7E1F3122F205C000805BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F7422F256BE00805BA1 /* TableViewForCarRepairSummary.swift */,
+				6D7E1F7022F2506100805BA1 /* CarRepairSummaryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D7E1F3222F205C900805BA1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F6522F238E600805BA1 /* ListCarRepairSummaryViewController.swift */,
+				6D8C9DFE22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift */,
+				6D8C9DFB22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift */,
+				6D7E1F7622F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D7E1F3422F2062000805BA1 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F4522F207DF00805BA1 /* DefaultNavigator.swift */,
+				6D7E1F4B22F2080C00805BA1 /* Navigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		6D7E1F3522F2062100805BA1 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F3E22F206E700805BA1 /* BasicDestinationBehavior.swift */,
+				6D7E1F4122F206ED00805BA1 /* Destination.swift */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		6D7E1F3622F2062200805BA1 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F3822F2069600805BA1 /* NavigationEffect.swift */,
+				6D7E1F3B22F206B100805BA1 /* NavigationMode.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6D7E1F3722F2062300805BA1 /* NavigationBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F4E22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift */,
+			);
+			path = NavigationBehavior;
+			sourceTree = "<group>";
+		};
+		6D7E1F5422F2292700805BA1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F5522F2292C00805BA1 /* Destination */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6D7E1F5522F2292C00805BA1 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E1F5622F2294500805BA1 /* AlertMessageDestination.swift */,
+				6D7E1F5922F2295100805BA1 /* AlertMessageDestinationConfiguration.swift */,
+				6D7E1F5C22F2295D00805BA1 /* AlertMessageTypeDestination.swift */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		6D8C9DF022F8D18400120EB0 /* IdentifiableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DDF1BB722F40E2800AD9F09 /* IdentifiableCell.swift */,
+			);
+			path = IdentifiableCell;
+			sourceTree = "<group>";
+		};
+		6D8C9DF722F8E02A00120EB0 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9DF822F8E09D00120EB0 /* ViewBorder.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		6D9FFD3C22F29C0D003BCC49 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD3D22F29C25003BCC49 /* CarRepairSummaryDestination.swift */,
+				6D9FFD4022F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift */,
+				6D9FFD4322F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		6D9FFD5622F2B35A003BCC49 /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				6D9FFD5722F2B369003BCC49 /* CarRepairDetailDestination.swift */,
+				6D9FFD5A22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift */,
+				6D9FFD5D22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift */,
+				6D78118B22F52CFC0048DC7F /* CarRepairDestinationScreen.swift */,
+			);
+			path = Destination;
+			sourceTree = "<group>";
+		};
+		6DB7300C22F3D2F8002AA7D5 /* ReviewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7303022F3D3A2002AA7D5 /* ReviewsTableViewCell.swift */,
+				6DB7303122F3D3A2002AA7D5 /* ReviewsTableViewCell.xib */,
+			);
+			path = ReviewsCell;
+			sourceTree = "<group>";
+		};
+		6DB7300D22F3D2FA002AA7D5 /* TypesCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7302A22F3D395002AA7D5 /* TypesTableViewCell.swift */,
+				6DB7302B22F3D395002AA7D5 /* TypesTableViewCell.xib */,
+			);
+			path = TypesCell;
+			sourceTree = "<group>";
+		};
+		6DB7300E22F3D2FC002AA7D5 /* PhotosCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7302422F3D389002AA7D5 /* PhotosTableViewCell.swift */,
+				6DB7302522F3D389002AA7D5 /* PhotosTableViewCell.xib */,
+			);
+			path = PhotosCell;
+			sourceTree = "<group>";
+		};
+		6DB7300F22F3D2FD002AA7D5 /* WeekdayCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7301E22F3D37A002AA7D5 /* WeekdayTableViewCell.swift */,
+				6DB7301F22F3D37A002AA7D5 /* WeekdayTableViewCell.xib */,
+			);
+			path = WeekdayCell;
+			sourceTree = "<group>";
+		};
+		6DB7301022F3D2FE002AA7D5 /* MapCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7301822F3D36C002AA7D5 /* MapTableViewCell.swift */,
+				6DB7301922F3D36C002AA7D5 /* MapTableViewCell.xib */,
+			);
+			path = MapCell;
+			sourceTree = "<group>";
+		};
+		6DB7301122F3D300002AA7D5 /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DB7301222F3D361002AA7D5 /* DescriptionTableViewCell.swift */,
+				6DB7301322F3D361002AA7D5 /* DescriptionTableViewCell.xib */,
+			);
+			path = DescriptionCell;
+			sourceTree = "<group>";
+		};
+		B19BA88C5845FD5ADA047707 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				657742707B590FF37F6FE6B9 /* Pods-Oficinas.debug.xcconfig */,
+				51C5CA7A2ADECA18EB7ED5E5 /* Pods-Oficinas.release.xcconfig */,
+				9689046DA22CAF58196C2558 /* Pods-OficinasTests.debug.xcconfig */,
+				5E53733451B8C96BEABD77F1 /* Pods-OficinasTests.release.xcconfig */,
+				A80BDA656ED52BC8FC3D396E /* Pods-OficinasUITests.debug.xcconfig */,
+				ADEF3B8580B2C15F1AC7212B /* Pods-OficinasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D78A5B9F3FBB8290B2BB0C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7823073CEB187FAC24C61789 /* Pods_Oficinas.framework */,
+				68768EE4B731C8EDF63E220E /* Pods_OficinasTests.framework */,
+				E9EE2C64AA4432A07352E0BC /* Pods_OficinasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +1252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D7E1E5222EFEDBC00805BA1 /* Build configuration list for PBXNativeTarget "Oficinas" */;
 			buildPhases = (
+				2A3F80C547B11C7FD37A2DC9 /* [CP] Check Pods Manifest.lock */,
 				6D7E1E2622EFEDBA00805BA1 /* Sources */,
 				6D7E1E2722EFEDBA00805BA1 /* Frameworks */,
 				6D7E1E2822EFEDBA00805BA1 /* Resources */,
+				D5218F0A9641881C7FAB57C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +1271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D7E1E5522EFEDBC00805BA1 /* Build configuration list for PBXNativeTarget "OficinasTests" */;
 			buildPhases = (
+				CFD413A34DCA7FF45BC75D1F /* [CP] Check Pods Manifest.lock */,
 				6D7E1E3A22EFEDBC00805BA1 /* Sources */,
 				6D7E1E3B22EFEDBC00805BA1 /* Frameworks */,
 				6D7E1E3C22EFEDBC00805BA1 /* Resources */,
@@ -167,6 +1290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D7E1E5822EFEDBC00805BA1 /* Build configuration list for PBXNativeTarget "OficinasUITests" */;
 			buildPhases = (
+				1185C27CB725FF4BC23687D8 /* [CP] Check Pods Manifest.lock */,
 				6D7E1E4522EFEDBC00805BA1 /* Sources */,
 				6D7E1E4622EFEDBC00805BA1 /* Frameworks */,
 				6D7E1E4722EFEDBC00805BA1 /* Resources */,
@@ -229,9 +1353,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB7302822F3D389002AA7D5 /* PhotosTableViewCell.xib in Resources */,
+				6D7E1F6F22F24B4100805BA1 /* CarRepairSummaryStoryboard.storyboard in Resources */,
+				6D7E1EB622F0E83100805BA1 /* CarRepairDetailTest.json in Resources */,
+				6D7E1EB322F0E81700805BA1 /* ListCarRepairSummaryTest.json in Resources */,
+				6DB7303422F3D3A2002AA7D5 /* ReviewsTableViewCell.xib in Resources */,
 				6D7E1E3822EFEDBC00805BA1 /* LaunchScreen.storyboard in Resources */,
+				6DB7301622F3D361002AA7D5 /* DescriptionTableViewCell.xib in Resources */,
+				6D9FFD4E22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard in Resources */,
+				6DB7302E22F3D395002AA7D5 /* TypesTableViewCell.xib in Resources */,
 				6D7E1E3522EFEDBC00805BA1 /* Assets.xcassets in Resources */,
-				6D7E1E3322EFEDBA00805BA1 /* Main.storyboard in Resources */,
+				6DB7301C22F3D36C002AA7D5 /* MapTableViewCell.xib in Resources */,
+				6DB7302222F3D37A002AA7D5 /* WeekdayTableViewCell.xib in Resources */,
+				6D7E1EC222F0FF0000805BA1 /* TestABC.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +1373,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB7302922F3D389002AA7D5 /* PhotosTableViewCell.xib in Resources */,
+				6DB7303522F3D3A2002AA7D5 /* ReviewsTableViewCell.xib in Resources */,
+				6DB7302F22F3D395002AA7D5 /* TypesTableViewCell.xib in Resources */,
+				6D9FFD4F22F2B322003BCC49 /* CarRepairDetailStoryboard.storyboard in Resources */,
+				6DB7301722F3D361002AA7D5 /* DescriptionTableViewCell.xib in Resources */,
+				6D7E1EB722F0E83100805BA1 /* CarRepairDetailTest.json in Resources */,
+				6D7E1EC322F0FF0000805BA1 /* TestABC.json in Resources */,
+				6DB7301D22F3D36C002AA7D5 /* MapTableViewCell.xib in Resources */,
+				6D7E1EB422F0E81700805BA1 /* ListCarRepairSummaryTest.json in Resources */,
+				6DB7302322F3D37A002AA7D5 /* WeekdayTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +1395,188 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1185C27CB725FF4BC23687D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OficinasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A3F80C547B11C7FD37A2DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oficinas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD413A34DCA7FF45BC75D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OficinasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5218F0A9641881C7FAB57C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/UIScrollView-InfiniteScroll/UIScrollView_InfiniteScroll.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIScrollView_InfiniteScroll.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oficinas/Pods-Oficinas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D7E1E2622EFEDBA00805BA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7E1E3022EFEDBA00805BA1 /* ViewController.swift in Sources */,
+				6D9FFD4B22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift in Sources */,
+				6D7E1F0F22F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift in Sources */,
+				6DB7302022F3D37A002AA7D5 /* WeekdayTableViewCell.swift in Sources */,
+				6D9FFD5E22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift in Sources */,
+				6D7E1F0922F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift in Sources */,
+				6D78119422F60D620048DC7F /* ApplicationSharedComponent.swift in Sources */,
+				6D7E1EE222F1478700805BA1 /* DefaultHTTPClient.swift in Sources */,
+				6DB7302C22F3D395002AA7D5 /* TypesTableViewCell.swift in Sources */,
+				6D7E1E6D22EFFA5800805BA1 /* CarRepair.swift in Sources */,
+				6D7E1F4C22F2080C00805BA1 /* Navigator.swift in Sources */,
+				6D8C9DEE22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift in Sources */,
+				6D7E1E7022EFFB2700805BA1 /* OpeningHour.swift in Sources */,
+				6D7E1EEE22F147AA00805BA1 /* RemoteAddress.swift in Sources */,
+				6D78118922F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift in Sources */,
+				6D8C9DCC22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift in Sources */,
+				6D7E1F6322F2315B00805BA1 /* DefaultObtainImage.swift in Sources */,
+				6D7E1F7722F268F400805BA1 /* ListCarRepairSummaryViewControllerConfigureLocation.swift in Sources */,
+				6D8C9DFF22F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift in Sources */,
+				6D7E1F4622F207DF00805BA1 /* DefaultNavigator.swift in Sources */,
+				6D9FFD5422F2B356003BCC49 /* CarRepairDetailShowScreen.swift in Sources */,
+				6D7E1F6C22F2394E00805BA1 /* CarRepairPresenter.swift in Sources */,
+				6D9FFD4822F2B2D9003BCC49 /* CarRepairDetailViewController.swift in Sources */,
+				6D7E1EFA22F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift in Sources */,
+				6D7E1EEB22F147A000805BA1 /* HTTPError.swift in Sources */,
+				6D7E1E8922F0070200805BA1 /* CarRepairDetailProviderError.swift in Sources */,
+				6D7E1F0C22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift in Sources */,
+				6DB7302622F3D389002AA7D5 /* PhotosTableViewCell.swift in Sources */,
+				6D9FFD5B22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift in Sources */,
+				6D7E1E7822F004FF00805BA1 /* CarRepairSummaryProvider.swift in Sources */,
+				6D8C9DC922F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift in Sources */,
+				6D7E1EE522F1478E00805BA1 /* HTTPClient.swift in Sources */,
+				6D9FFD4122F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift in Sources */,
+				6D7E1F1822F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift in Sources */,
+				6D7E1F3922F2069600805BA1 /* NavigationEffect.swift in Sources */,
+				6D7E1F0322F1E2D900805BA1 /* RemoteParametersProvider.swift in Sources */,
+				6D78118F22F606D60048DC7F /* AccessNativeComponents.swift in Sources */,
+				6D9FFD5122F2B34B003BCC49 /* CarRepairDetailPresenter.swift in Sources */,
+				6D7E1F7122F2506100805BA1 /* CarRepairSummaryTableViewCell.swift in Sources */,
+				6D7E1EC022F0EE4700805BA1 /* ParseForMock.swift in Sources */,
+				6D7E1EA022F00BA100805BA1 /* Review.swift in Sources */,
+				6D7E1F5222F20B0C00805BA1 /* ActivityIndicator.swift in Sources */,
+				6D7E1F1522F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift in Sources */,
+				6D7E1E7522F004EB00805BA1 /* ObtainCarRepairSummary.swift in Sources */,
+				6D8C9DB722F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift in Sources */,
+				6D7E1F6922F2393600805BA1 /* CarRepairSummaryShowScreen.swift in Sources */,
+				6D9FFD5822F2B369003BCC49 /* CarRepairDetailDestination.swift in Sources */,
+				6DDF1BB822F40E2800AD9F09 /* IdentifiableCell.swift in Sources */,
+				6D7E1E7B22F0050D00805BA1 /* CarRepairSummaryProviderError.swift in Sources */,
+				6D7E1F6622F238E600805BA1 /* ListCarRepairSummaryViewController.swift in Sources */,
+				6D7E1E9722F009FB00805BA1 /* Period.swift in Sources */,
+				6D7E1E8F22F008EE00805BA1 /* CarRepairDetail.swift in Sources */,
 				6D7E1E2E22EFEDBA00805BA1 /* AppDelegate.swift in Sources */,
+				6D7E1EF122F147B200805BA1 /* RemoteProvider.swift in Sources */,
+				6D9FFD3E22F29C25003BCC49 /* CarRepairSummaryDestination.swift in Sources */,
+				6D7E1F6022F22FFF00805BA1 /* BaseConfigurationViewController.swift in Sources */,
+				6D7E1E6422EFF48500805BA1 /* ParameterizedUseCase.swift in Sources */,
+				6D7E1F5D22F2295D00805BA1 /* AlertMessageTypeDestination.swift in Sources */,
+				6D7E1F3C22F206B200805BA1 /* NavigationMode.swift in Sources */,
+				6DB7301422F3D361002AA7D5 /* DescriptionTableViewCell.swift in Sources */,
+				6D7E1EFD22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift in Sources */,
+				6DB7303222F3D3A2002AA7D5 /* ReviewsTableViewCell.swift in Sources */,
+				6D7E1E6A22EFFA4A00805BA1 /* ListCarRepairSummary.swift in Sources */,
+				6D7E1F5A22F2295100805BA1 /* AlertMessageDestinationConfiguration.swift in Sources */,
+				6DB7301A22F3D36C002AA7D5 /* MapTableViewCell.swift in Sources */,
+				6D7E1F7522F256BE00805BA1 /* TableViewForCarRepairSummary.swift in Sources */,
+				6D8C9DFC22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift in Sources */,
+				6D8C9DC622F7E39600120EB0 /* SafariViewControllerDestination.swift in Sources */,
+				6D7E1F4222F206ED00805BA1 /* Destination.swift in Sources */,
+				6D7E1F3F22F206E700805BA1 /* BasicDestinationBehavior.swift in Sources */,
+				6D7E1E9D22F00AF700805BA1 /* Photo.swift in Sources */,
+				6D7E1F1222F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift in Sources */,
+				6D7E1E8122F006CB00805BA1 /* ObtainCarRepairDetail.swift in Sources */,
+				6D9FFD6122F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift in Sources */,
+				6D8C9DF922F8E09D00120EB0 /* ViewBorder.swift in Sources */,
+				6D78118C22F52CFC0048DC7F /* CarRepairDestinationScreen.swift in Sources */,
+				6D7E1E9A22F00A8C00805BA1 /* DayAndTime.swift in Sources */,
+				6D9FFD4422F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift in Sources */,
+				6D7E1E7E22F0051600805BA1 /* CarRepairSummaryReceiver.swift in Sources */,
+				6D7E1F5722F2294500805BA1 /* AlertMessageDestination.swift in Sources */,
+				6D7E1EE822F1479800805BA1 /* HTTPMethod.swift in Sources */,
+				6D7E1E8622F006F600805BA1 /* CarRepairDetailProvider.swift in Sources */,
+				6D7E1F4F22F20A2300805BA1 /* ViewControllerNavigationBehavior.swift in Sources */,
+				6D7E1E8C22F0070A00805BA1 /* CarRepairDetailReceiver.swift in Sources */,
+				6D8C9DC322F7DC8200120EB0 /* NaviteComponentsBehaviort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +1584,101 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7E1E4322EFEDBC00805BA1 /* OficinasTests.swift in Sources */,
+				6D7E1E6E22EFFA5800805BA1 /* CarRepair.swift in Sources */,
+				6D7E1F0A22F1F9CE00805BA1 /* DefaultCarRepairSummaryExecutor.swift in Sources */,
+				6D7E1F6122F22FFF00805BA1 /* BaseConfigurationViewController.swift in Sources */,
+				6D7E1EEC22F147A000805BA1 /* HTTPError.swift in Sources */,
+				6D7E1F4722F207DF00805BA1 /* DefaultNavigator.swift in Sources */,
+				6D7E1F5322F20B0C00805BA1 /* ActivityIndicator.swift in Sources */,
+				6D8C9E0022F91BCD00120EB0 /* ListCarRepairSummaryViewControllerConfigureUICompents.swift in Sources */,
+				6DB7301B22F3D36C002AA7D5 /* MapTableViewCell.swift in Sources */,
+				6D7E1F6A22F2393600805BA1 /* CarRepairSummaryShowScreen.swift in Sources */,
+				6D7E1E9B22F00A8C00805BA1 /* DayAndTime.swift in Sources */,
+				6D7E1ED922F13FEF00805BA1 /* CarRepairDetailReceiverMock.swift in Sources */,
+				6D7E1EC922F13AE800805BA1 /* CarRepairSummaryProviderMock.swift in Sources */,
+				6D9FFD4222F29C3B003BCC49 /* CarRepairSummaryDestinationConfiguration.swift in Sources */,
+				6D7E1F0422F1E2D900805BA1 /* RemoteParametersProvider.swift in Sources */,
+				6D7E1EE622F1478E00805BA1 /* HTTPClient.swift in Sources */,
+				6D9FFD5F22F2B38A003BCC49 /* CarRepairDetailTypeDestination.swift in Sources */,
+				6D9FFD5222F2B34B003BCC49 /* CarRepairDetailPresenter.swift in Sources */,
+				6D7E1ED722F13FE100805BA1 /* CarRepairDetailProviderMockForFailure.swift in Sources */,
+				6D7E1E7C22F0050D00805BA1 /* CarRepairSummaryProviderError.swift in Sources */,
+				6D7E1ED522F13FD400805BA1 /* CarRepairDetailProviderMock.swift in Sources */,
+				6D7E1E6B22EFFA4A00805BA1 /* ListCarRepairSummary.swift in Sources */,
+				6D8C9DC422F7DC8200120EB0 /* NaviteComponentsBehaviort.swift in Sources */,
+				6D7E1F3D22F206B200805BA1 /* NavigationMode.swift in Sources */,
+				6D7E1E8D22F0070A00805BA1 /* CarRepairDetailReceiver.swift in Sources */,
+				6D7E1F4322F206ED00805BA1 /* Destination.swift in Sources */,
+				6D9FFD5522F2B356003BCC49 /* CarRepairDetailShowScreen.swift in Sources */,
+				6D7E1F1622F1FA0A00805BA1 /* ObtainCarRepairDetailExecutor.swift in Sources */,
+				6D7E1F3A22F2069600805BA1 /* NavigationEffect.swift in Sources */,
+				6D8C9DCA22F7E3A800120EB0 /* SafariViewControllerDestinationConfiguration.swift in Sources */,
+				6D7E1F5E22F2295D00805BA1 /* AlertMessageTypeDestination.swift in Sources */,
+				6D78118A22F527C70048DC7F /* CarRepairDetailViewControllerNavigationBehavior.swift in Sources */,
+				6D7E1E6522EFF48500805BA1 /* ParameterizedUseCase.swift in Sources */,
+				6D7E1E8222F006CB00805BA1 /* ObtainCarRepairDetail.swift in Sources */,
+				6D7E1EE922F1479800805BA1 /* HTTPMethod.swift in Sources */,
+				6D8C9DCD22F7E3B800120EB0 /* SafariViewControllerTypeDestination.swift in Sources */,
+				6D7E1ECB22F13AFB00805BA1 /* CarRepairSummaryProviderMockForFailure.swift in Sources */,
+				6D7E1E8A22F0070200805BA1 /* CarRepairDetailProviderError.swift in Sources */,
+				6D78118D22F52CFC0048DC7F /* CarRepairDestinationScreen.swift in Sources */,
+				6D7E1EBD22F0E86000805BA1 /* ParseForMockTest.swift in Sources */,
+				6D7E1E8722F006F600805BA1 /* CarRepairDetailProvider.swift in Sources */,
+				6D7E1E7122EFFB2700805BA1 /* OpeningHour.swift in Sources */,
+				6D8C9DFD22F91A9000120EB0 /* ListCarRepairSummaryViewControllerConfigureRequests.swift in Sources */,
+				6D8C9DB822F7D95B00120EB0 /* AccessiblePhoneAndSiteComponents.swift in Sources */,
+				6D7E1E9822F009FB00805BA1 /* Period.swift in Sources */,
+				6D7E1ECD22F13B0800805BA1 /* CarRepairSummaryReceiverMock.swift in Sources */,
+				6D7E1ED322F13FBC00805BA1 /* ObtainCarRepairDetailTest.swift in Sources */,
+				6D7E1F1922F1FA1800805BA1 /* ObtainCarRepairDetailExecutorError.swift in Sources */,
+				6D7E1E9E22F00AF700805BA1 /* Photo.swift in Sources */,
+				6D7E1F5022F20A2300805BA1 /* ViewControllerNavigationBehavior.swift in Sources */,
+				6D7E1F4D22F2080C00805BA1 /* Navigator.swift in Sources */,
+				6D8C9DFA22F8E09D00120EB0 /* ViewBorder.swift in Sources */,
+				6D7E1F1022F1F9E900805BA1 /* ObtainCarRepairSummaryExecutorError.swift in Sources */,
+				6D7E1EFB22F14C9600805BA1 /* DefaultCarRepairDetailProvider.swift in Sources */,
+				6D78119022F606D60048DC7F /* AccessNativeComponents.swift in Sources */,
+				6D9FFD4922F2B2D9003BCC49 /* CarRepairDetailViewController.swift in Sources */,
+				6D7E1F0D22F1F9DC00805BA1 /* ObtainCarRepairSummaryExecutor.swift in Sources */,
+				6D7E1F6D22F2394E00805BA1 /* CarRepairPresenter.swift in Sources */,
+				6DB7302D22F3D395002AA7D5 /* TypesTableViewCell.swift in Sources */,
+				6D8C9DEF22F8CC7800120EB0 /* FormattingPropertiesCarRepair.swift in Sources */,
+				6D9FFD4622F2ADF2003BCC49 /* CarRepairSummaryTableViewCell.swift in Sources */,
+				6DB7302722F3D389002AA7D5 /* PhotosTableViewCell.swift in Sources */,
+				6D8C9DC722F7E39600120EB0 /* SafariViewControllerDestination.swift in Sources */,
+				6D9FFD3B22F29A8C003BCC49 /* ListCarRepairSummaryViewControllerConfigureLocation.swift in Sources */,
+				6D9FFD5922F2B369003BCC49 /* CarRepairDetailDestination.swift in Sources */,
+				6D8C9DCE22F7E9D300120EB0 /* AppDelegate.swift in Sources */,
+				6DDF1BB922F40E2800AD9F09 /* IdentifiableCell.swift in Sources */,
+				6D7E1EA122F00BA100805BA1 /* Review.swift in Sources */,
+				6D7E1F1322F1F9FB00805BA1 /* DefaultCarRepairDetailExecutor.swift in Sources */,
+				6D7E1EBF22F0EA5700805BA1 /* ObtainCarRepairSummaryTest.swift in Sources */,
+				6D7E1EE322F1478700805BA1 /* DefaultHTTPClient.swift in Sources */,
+				6D7E1EEF22F147AA00805BA1 /* RemoteAddress.swift in Sources */,
+				6D9FFD3A22F29A83003BCC49 /* TableViewForCarRepairSummary.swift in Sources */,
+				6D7E1F6422F2315B00805BA1 /* DefaultObtainImage.swift in Sources */,
+				6D7E1ECF22F13C7F00805BA1 /* ListCarRepairSummaryTestData.swift in Sources */,
+				6D7E1E7922F004FF00805BA1 /* CarRepairSummaryProvider.swift in Sources */,
+				6DB7303322F3D3A2002AA7D5 /* ReviewsTableViewCell.swift in Sources */,
+				6D9FFD4C22F2B2EB003BCC49 /* TableViewForCarRepairDetail.swift in Sources */,
+				6D7E1EFE22F14CE500805BA1 /* DefaultCarRepairSummaryProvider.swift in Sources */,
+				6D7E1ED122F13F4300805BA1 /* CarRepairDetailTestData.swift in Sources */,
+				6DB7301522F3D361002AA7D5 /* DescriptionTableViewCell.swift in Sources */,
+				6D7E1E7622F004EB00805BA1 /* ObtainCarRepairSummary.swift in Sources */,
+				6D7E1E9022F008EE00805BA1 /* CarRepairDetail.swift in Sources */,
+				6D9FFD5C22F2B37F003BCC49 /* CarRepairDetailDestinationConfiguration.swift in Sources */,
+				6D7E1F5822F2294600805BA1 /* AlertMessageDestination.swift in Sources */,
+				6D7E1E7F22F0051600805BA1 /* CarRepairSummaryReceiver.swift in Sources */,
+				6D78119522F60D620048DC7F /* ApplicationSharedComponent.swift in Sources */,
+				6D7E1F5B22F2295100805BA1 /* AlertMessageDestinationConfiguration.swift in Sources */,
+				6DB7302122F3D37A002AA7D5 /* WeekdayTableViewCell.swift in Sources */,
+				6D7E1EF222F147B200805BA1 /* RemoteProvider.swift in Sources */,
+				6D7E1F4022F206E700805BA1 /* BasicDestinationBehavior.swift in Sources */,
+				6D9FFD4522F29C49003BCC49 /* CarRepairSummaryTypeDestination.swift in Sources */,
+				6D7E1EBA22F0E85300805BA1 /* ParseForMock.swift in Sources */,
+				6D9FFD3F22F29C25003BCC49 /* CarRepairSummaryDestination.swift in Sources */,
+				6D7E1F6722F238E600805BA1 /* ListCarRepairSummaryViewController.swift in Sources */,
+				6D9FFD6222F2B40E003BCC49 /* CarRepairSummaryViewControllerNavigationBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +1706,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D7E1E3122EFEDBA00805BA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D7E1E3222EFEDBA00805BA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6D7E1E3622EFEDBC00805BA1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,11 +1835,12 @@
 		};
 		6D7E1E5322EFEDBC00805BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657742707B590FF37F6FE6B9 /* Pods-Oficinas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
-				INFOPLIST_FILE = Oficinas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Oficinas/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +1854,12 @@
 		};
 		6D7E1E5422EFEDBC00805BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C5CA7A2ADECA18EB7ED5E5 /* Pods-Oficinas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
-				INFOPLIST_FILE = Oficinas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Oficinas/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +1873,7 @@
 		};
 		6D7E1E5622EFEDBC00805BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9689046DA22CAF58196C2558 /* Pods-OficinasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +1895,7 @@
 		};
 		6D7E1E5722EFEDBC00805BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E53733451B8C96BEABD77F1 /* Pods-OficinasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1917,7 @@
 		};
 		6D7E1E5922EFEDBC00805BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80BDA656ED52BC8FC3D396E /* Pods-OficinasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +1938,7 @@
 		};
 		6D7E1E5A22EFEDBC00805BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEF3B8580B2C15F1AC7212B /* Pods-OficinasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

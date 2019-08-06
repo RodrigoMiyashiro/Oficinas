@@ -1,0 +1,184 @@
+{
+    "html_attributions": [],
+    "result": {
+        "formatted_address": "R. Cel. Diogo, 897 - Jardim da Gloria, São Paulo - SP, 01545-000, Brasil",
+        "formatted_phone_number": "(11) 2062-6094",
+        "id": "97c22ea30003034ab46c450705ee46a9da5133f1",
+        "international_phone_number": "+55 11 2062-6094",
+        "name": "La Macchina Centro Automotivo Ltda",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1400"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "0800"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "segunda-feira: 08:00 – 18:00",
+                "terça-feira: 08:00 – 18:00",
+                "quarta-feira: 08:00 – 18:00",
+                "quinta-feira: 08:00 – 18:00",
+                "sexta-feira: 08:00 – 18:00",
+                "sábado: 08:00 – 14:00",
+                "domingo: Fechado"
+            ]
+        },
+        "photos": [
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103399002442983326605/photos\">La Macchina Centro Automotivo Ltda</a>"
+                ],
+                "photo_reference": "CmRaAAAAbteCxwpVzS9tAaZ4AN5AVVbezw74ZbetMr_qiwTagNGgijsq8EdyZ8QRuZKtcioUFMHMqUnRcwhWmqw786qCpjDwT1XmCmFNXkHhV7pPFnQwqxFR_NYrZMAuZb-HzmvVEhDjwafER6314NiWOs8sNRknGhQQimotGZm5qOYXhRsBRra9p-UNng",
+                "width": 1600
+            },
+            {
+                "height": 4656,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103404524079486187078/photos\">Alexandre Lima</a>"
+                ],
+                "photo_reference": "CmRaAAAAGGH0n8gl5QZFqGRqWN-j4PMkZknKTuHuYRAntgzPehfej8rYiAOmtzyp-hxoYmsP3yHAao6xpFZNFng2C-aElYeThARiimh3vXrnJ8Sa_9gWM1BfU14PJ03Z8xcdBqRREhA59WiTTOD4YQdHkNY-LfLIGhSLtb1bm0SYxe5Gkh0P75WJEayMDg",
+                "width": 2620
+            },
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103399002442983326605/photos\">La Macchina Centro Automotivo Ltda</a>"
+                ],
+                "photo_reference": "CmRaAAAAm818DZ-OALgACTuePtvqNyex5ulpninX0-su0RyN18UhL10LqH9mF24pL-szKo-98BUBP_arjnsTJ1frhdS7RaZFMvZdYnUTZQaXzOiwfOBP72yM9aSAjXlfCT7mJfOoEhBioAmOb6HKfuvaVpm2aLXVGhTeTBFdoLJVVlWe_lPWRsOt7yxKkA",
+                "width": 1600
+            },
+            {
+                "height": 500,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103399002442983326605/photos\">La Macchina Centro Automotivo Ltda</a>"
+                ],
+                "photo_reference": "CmRaAAAAWJhkoXaa3CZFrLQnIsw9wADEaUZxFii6T9JKRPCuFF0VF0MP3Y35yulbKUewNQnKVQOywEFcTNBFI9H1lJ_7h0B0y0KFXlDsfDXP3D9jsEofM450QB4W8GBiBpKu7jQGEhAxpMV51S5cjUOt1PJYmwlIGhReB--KS8bj2CJ1JiErsTKICpnaBw",
+                "width": 500
+            }
+        ],
+        "place_id": "ChIJaWt0sWNZzpQRXwi88SSacDk",
+        "rating": 4.4,
+        "reference": "ChIJaWt0sWNZzpQRXwi88SSacDk",
+        "reviews": [
+            {
+                "author_name": "André Nepomuceno",
+                "author_url": "https://www.google.com/maps/contrib/113047404263077261757/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-Jb2AIZaWur0/AAAAAAAAAAI/AAAAAAAAALs/DxJB5mUp5Kw/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 semanas atrás",
+                "text": "Ótimo atendimento",
+                "time": 1562335395
+            },
+            {
+                "author_name": "Alexandre Silva",
+                "author_url": "https://www.google.com/maps/contrib/117116083854915000671/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-ObCfpc-QPjo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reNT39W39-X0bO3i_6G0uVvKYFp8w/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "4 meses atrás",
+                "text": "Ótimo atendimento ...falar com Nane",
+                "time": 1553766609
+            },
+            {
+                "author_name": "Elaine Cristina Jonas",
+                "author_url": "https://www.google.com/maps/contrib/114146751751229413746/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-62afxVeOCm0/AAAAAAAAAAI/AAAAAAAAXJ4/KLID1UqU_Z0/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "5 meses atrás",
+                "text": "Excelente oficina com profissionais de confiança! Recomendo!",
+                "time": 1549963207
+            },
+            {
+                "author_name": "Miguel Borsos Filho",
+                "author_url": "https://www.google.com/maps/contrib/108261358472912269103/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-CbqhqrO2vhQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reEqU4BlSqYxApNYdwDl2elLW3Wfg/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
+                "rating": 4,
+                "relative_time_description": "um ano atrás",
+                "text": "Não é a primeira vez que adquiro equipamentos, nesta loja, já sou freguês há mais de 6 anos, sempre fui bem atendido e se precisar tornarei a fazer compras lá",
+                "time": 1515656197
+            },
+            {
+                "author_name": "Romulo Neves",
+                "author_url": "https://www.google.com/maps/contrib/114889376184498218233/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-9Ch7nPVtZjA/AAAAAAAAAAI/AAAAAAAAYcU/gozY5YkMxtE/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 semanas atrás",
+                "text": "Profissionais.",
+                "time": 1562176475
+            }
+        ],
+        "types": [
+            "car_repair",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=4138977541018617951",
+        "user_ratings_total": 44,
+        "vicinity": "Rua Coronel Diogo, 897 - Jardim da Gloria, São Paulo",
+        "website": "http://www.lamacchina.com.br/"
+    },
+    "status": "OK"
+}
